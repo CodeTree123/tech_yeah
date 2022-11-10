@@ -1609,7 +1609,7 @@
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you hold software licenses for:</p>
                                                     <p class="form-text ">(Check all that apply)</p>
-                                                    <div class="col my-4"> 
+                                                    <div class="col my-4">
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox" value="" id="AirMagnet">
                                                             <label class="form-check-label" for="AirMagnet">
@@ -1647,7 +1647,7 @@
                                                         <div class="other_software_license_wrapper">
                                                             <label for="other_software_license_list" class="form-label ">Other (please list)</label>
                                                             <input type="text" class="form-control " id="other_software_license_list" name="" autocomplete="off">
-                                                        </div>  
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1658,17 +1658,17 @@
                                             <div class="my-4">
                                                 <p class="form-label ">Do you own one of the following?</p>
                                                 <p class="form-text ">(Check all that apply)</p>
-                                                <div class="col my-4"> 
+                                                <div class="col my-4">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="Wilson_Pro_Meter">
                                                         <label class="form-check-label" for="Wilson_Pro_Meter">
-                                                        Wilson Pro Meter
+                                                            Wilson Pro Meter
                                                         </label>
                                                     </div>
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="Surecall_Meter">
                                                         <label class="form-check-label" for="Surecall_Meter">
-                                                        Surecall Meter
+                                                            Surecall Meter
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1690,7 +1690,7 @@
                                     <div class="network_hardware_installs_wrapper">
                                         <h5 class="fw-bold">Please check what experience you have:</h5>
                                         <p class="form-text"> (Check all that apply)</p>
-                                        <div class="col my-4"> 
+                                        <div class="col my-4">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="forklift">
                                                 <label class="form-check-label" for="forklift">
@@ -1748,7 +1748,7 @@
                                             <p class="form-label ">Do you have experience installing MDF Racks?</p>
                                             <select class="form-select" aria-label="Default select example" id="experience_installing_mdf_racks" name="">
                                                 <option value="no">No</option>
-                                                <option value="yes">Yes</option> 
+                                                <option value="yes">Yes</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1756,117 +1756,117 @@
                                         <h2>AUTOMATION, ROBOTICS AND FACILITIES MAINTENANCE</h2>
                                         <hr>
                                         <p class="form-text fw-bold"> Do you have experience in:</p>
-                                        <div class="col my-4"> 
+                                        <div class="col my-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="automation">
+                                                <input class="form-check-input automation_robotics_facilities" type="checkbox" value="" id="automation">
                                                 <label class="form-check-label" for="automation">
-                                                Automation
+                                                    Automation
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="robotics">
+                                                <input class="form-check-input automation_robotics_facilities" type="checkbox" value="" id="robotics">
                                                 <label class="form-check-label" for="robotics">
-                                                Robotics  
+                                                    Robotics
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="facilities_maintenace">
+                                                <input class="form-check-input automation_robotics_facilities" type="checkbox" value="" id="facilities_maintenace">
                                                 <label class="form-check-label" for="facilities_maintenace">
-                                                Facilities Maintenace
+                                                    Facilities Maintenace
                                                 </label>
-                                            </div>  
+                                            </div>
                                         </div>
-                                        <div class="col my-4 automation_robotics_facilities_maintenance_wrapper border border-dark"> 
+                                        <div class="col my-4 automation_robotics_facilities_maintenance_wrapper  ">
                                             <p class="form-label">Further explain your experience and skill set in Automation and Robotics:</p>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Conveyors">
                                                 <label class="form-check-label" for="Conveyors">
-                                                Conveyors (assembly of drive components such as Drive, Servo, Motor, Belt, or Chain)
+                                                    Conveyors (assembly of drive components such as Drive, Servo, Motor, Belt, or Chain)
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Electrical">
                                                 <label class="form-check-label" for="Electrical">
-                                                Electrical (Power Units, Cabling, Bus ways, etc)  
+                                                    Electrical (Power Units, Cabling, Bus ways, etc)
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Facilities">
                                                 <label class="form-check-label" for="Facilities">
-                                                Facilities  
+                                                    Facilities
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="General_Construction">
                                                 <label class="form-check-label" for="General_Construction">
-                                                General Construction  
+                                                    General Construction
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Maintenance">
                                                 <label class="form-check-label" for="Maintenance">
-                                                Maintenance    
+                                                    Maintenance
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Material_Handling">
                                                 <label class="form-check-label" for="Material_Handling">
-                                                Material Handling    
+                                                    Material Handling
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Mechanical_Construction">
                                                 <label class="form-check-label" for="Mechanical_Construction">
-                                                Mechanical Construction (general mechanical labor - putting parts together with bolts, rivets, etc., anchoring)    
+                                                    Mechanical Construction (general mechanical labor - putting parts together with bolts, rivets, etc., anchoring)
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Refrigeration">
                                                 <label class="form-check-label" for="Refrigeration">
-                                                Refrigeration   
+                                                    Refrigeration
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Software_Turn_up_Connectivity">
                                                 <label class="form-check-label" for="Software_Turn_up_Connectivity">
-                                                Software Turn up & Connectivity   
+                                                    Software Turn up & Connectivity
                                                 </label>
-                                            </div>  
+                                            </div>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Weights_and_Measures_Scale_Calibration">
                                                 <label class="form-check-label" for="Weights_and_Measures_Scale_Calibration">
-                                                Weights and Measures/Scale Calibration
+                                                    Weights and Measures/Scale Calibration
                                                 </label>
-                                            </div> 
-                                            <p class="form-text">Check all that apply.</p> 
+                                            </div>
+                                            <p class="form-text">Check all that apply.</p>
 
                                             <p class="form-label">Type of HVAC Work</p>
-                                            
+
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Control_Repair_Replacement_Experience">
                                                 <label class="form-check-label" for="Control_Repair_Replacement_Experience">
-                                                Control Repair/Replacement Experience
+                                                    Control Repair/Replacement Experience
                                                 </label>
-                                            </div> 
-                                            
+                                            </div>
+
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Troubleshooting_and_Repair_of RTUs_and_Associated_Controls">
                                                 <label class="form-check-label" for="Troubleshooting_and_Repair_of RTUs_and_Associated_Controls">
-                                                Troubleshooting and Repair of RTUs and Associated Controls
+                                                    Troubleshooting and Repair of RTUs and Associated Controls
                                                 </label>
-                                            </div> 
-                                            <p class="form-text">Check all that apply.</p> 
+                                            </div>
+                                            <p class="form-text">Check all that apply.</p>
 
                                             <div class="my-4">
                                                 <p class="form-label ">Do you hold a General Contractor License?</p>
@@ -1903,134 +1903,144 @@
                                         <h2>AUTOMATION, ROBOTICS AND FACILITIES MAINTENANCE</h2>
                                         <hr>
                                         <p class="form-text fw-bold"> Do you have experience performing:</p>
-                                        <div class="col my-4"> 
+                                        <div class="col my-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="indoor_digital_signage_installs">
+                                                <input class="form-check-input digital_signage_installs" type="checkbox" value="" id="indoor_digital_signage_installs">
                                                 <label class="form-check-label" for="indoor_digital_signage_installs">
-                                                Indoor Digital Signage Installs (e.g. Kiosks, Single Boards, Menu Boards, KDS, Media Players, etc)
+                                                    Indoor Digital Signage Installs (e.g. Kiosks, Single Boards, Menu Boards, KDS, Media Players, etc)
                                                 </label>
-                                            </div>  
+                                            </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="outdoor_digital_signage_installs">
+                                                <input class="form-check-input digital_signage_installs" type="checkbox" value="" id="outdoor_digital_signage_installs">
                                                 <label class="form-check-label" for="outdoor_digital_signage_installs">
-                                                Outdoor Signage Installs (e.g. Pedestals at Drive-Throughs, Ring Notifications, Large Digital Signs on Poles higher than 6’)
+                                                    Outdoor Signage Installs (e.g. Pedestals at Drive-Throughs, Ring Notifications, Large Digital Signs on Poles higher than 6’)
                                                 </label>
-                                            </div>  
+                                            </div>
                                         </div>
-                                        <div class="digital_signage_installs_wrapper border border-dark">
+                                        <div class="digital_signage_installs_wrapper">
                                             <p class="form-text fw-bold">List your specific experience with Digital Signage work:</p>
-                                            <div class="col my-4"> 
+                                            <div class="col my-4">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="connectivity_of_outdoor_digital_signs">
                                                     <label class="form-check-label" for="connectivity_of_outdoor_digital_signs">
-                                                    Connectivity of Outdoor Digital Signs (e.g. hard wire, cellular, WIFI)
+                                                        Connectivity of Outdoor Digital Signs (e.g. hard wire, cellular, WIFI)
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="mall_kiosk_screens">
                                                     <label class="form-check-label" for="mall_kiosk_screens">
-                                                    Mall Kiosk Screens (e.g. mall directories and advertising)
+                                                        Mall Kiosk Screens (e.g. mall directories and advertising)
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="media_player_installs">
                                                     <label class="form-check-label" for="media_player_installs">
-                                                    Media Player Installs
+                                                        Media Player Installs
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="outdoor_digital_signs">
                                                     <label class="form-check-label" for="outdoor_digital_signs">
-                                                    Outdoor Digital Signs on Poles (e.g. heights of 6’+)
+                                                        Outdoor Digital Signs on Poles (e.g. heights of 6’+)
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="pedestal_signage_installs">
                                                     <label class="form-check-label" for="pedestal_signage_installs">
-                                                    Pedestal Signage Installs
+                                                        Pedestal Signage Installs
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="power_source_internal">
                                                     <label class="form-check-label" for="power_source_internal">
-                                                    Power Source Internal (installing electrical outlets)
+                                                        Power Source Internal (installing electrical outlets)
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="power_source_external">
                                                     <label class="form-check-label" for="power_source_external">
-                                                    Power Source External (trenching to a sign for electrical conduit)
+                                                        Power Source External (trenching to a sign for electrical conduit)
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="perform_site_surveys_existing_signs_placement">
                                                     <label class="form-check-label" for="perform_site_surveys_existing_signs_placement">
-                                                    Perform site surveys for existing signs placement
+                                                        Perform site surveys for existing signs placement
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="perform_site_surveys_new_signs_placement">
                                                     <label class="form-check-label" for="perform_site_surveys_new_signs_placement">
-                                                    Perform site surveys for new sign placement
+                                                        Perform site surveys for new sign placement
                                                     </label>
-                                                </div>  
+                                                </div>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="perform_site_surveys_existing_power_and_circuit_space">
                                                     <label class="form-check-label" for="perform_site_surveys_existing_power_and_circuit_space">
-                                                    Perform site surveys for existing power and circuit space
+                                                        Perform site surveys for existing power and circuit space
                                                     </label>
                                                 </div>
-                                                 <p class="form-text">Check all that apply.</p> 
+                                                <p class="form-text">Check all that apply.</p>
 
-                                                 <div class="my-4 row">
+                                                <div class="my-4 row">
                                                     <div class="col-6">
                                                         <p class="form-label ">Are you able to pull your own Digital Signage Permits?</p>
                                                         <select class="form-select" aria-label="Default select example" id="pull_digital_signage_permits" name="">
                                                             <option value="no">No</option>
                                                             <option value="yes">Yes</option>
-                                                        </select> 
+                                                        </select>
                                                     </div>
-                                                </div> 
+                                                </div>
 
-                                                 <div class="my-4 row">
+                                                <div class="my-4 row">
                                                     <div class="col-6">
                                                         <p class="form-label ">Do you have a license for signage installs?</p>
                                                         <select class="form-select" aria-label="Default select example" id="license_for_signage_installs" name="">
                                                             <option value="no">No</option>
                                                             <option value="yes">Yes</option>
-                                                        </select> 
+                                                        </select>
                                                     </div>
-                                                </div> 
+                                                </div>
+                                                <div class="license_for_signage_installs_wrapper">
+                                                    <div class="my-4 row">
+                                                        <div class="col-6">
+                                                            <p class="form-label ">Signage License Info*</p>
+                                                            <p class="form-text ">Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
+                                                            <textarea class="form-control" id="floatingTextarea" name="signage_license_info"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
-                                        </div> 
+                                        </div>
                                     </div>
                                     <div>
                                         <h2>IT SERVICES, AUDIO/VIDEO, PAGING, SATELLITE, POS AND OUTSIDE PLANT WORK</h2>
-                                        <hr> 
+                                        <hr>
                                         <div class="my-4 row">
                                             <div class="col-6">
                                                 <p class="form-label ">Do you offer IT services?</p>
                                                 <select class="form-select" aria-label="Default select example" id="offering_it_services" name="">
                                                     <option value="no">No</option>
                                                     <option value="yes">Yes</option>
-                                                </select> 
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="my-4 row">
                                             <div class="col-6">
                                                 <p class="form-label ">Do you offer the following services?</p>
-                                                <div class="col my-4"> 
+                                                <div class="col my-4">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="audio_video">
                                                         <label class="form-check-label" for="audio_video">
-                                                        Audio/Video
+                                                            Audio/Video
                                                         </label>
-                                                    </div> 
+                                                    </div>
 
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="  Paging_Systems">
                                                         <label class="form-check-label" for="  Paging_Systems">
-                                                        Paging Systems
+                                                            Paging Systems
                                                         </label>
                                                     </div>
 
@@ -2039,34 +2049,34 @@
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id=" Aerial">
                                                         <label class="form-check-label" for=" Aerial">
-                                                        Aerial
+                                                            Aerial
                                                         </label>
                                                     </div>
 
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id=" Underground_Work">
                                                         <label class="form-check-label" for=" Underground_Work">
-                                                        Underground Work
+                                                            Underground Work
                                                         </label>
-                                                    </div> 
-                                                </div> 
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="my-4 row">
                                             <div class="col-6">
                                                 <p class="form-label ">Type of Outside Plant Work</p>
-                                                <div class="col my-4"> 
+                                                <div class="col my-4">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="Trenching">
                                                         <label class="form-check-label" for="Trenching">
-                                                        Trenching
+                                                            Trenching
                                                         </label>
-                                                    </div> 
+                                                    </div>
 
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="  Directional_Boring">
                                                         <label class="form-check-label" for="  Directional_Boring">
-                                                        Directional Boring
+                                                            Directional Boring
                                                         </label>
                                                     </div>
 
@@ -2075,24 +2085,24 @@
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id=" Satellite">
                                                         <label class="form-check-label" for=" Satellite">
-                                                        Satellite
+                                                            Satellite
                                                         </label>
                                                     </div>
 
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id=" offering_POS">
                                                         <label class="form-check-label" for=" offering_POS">
-                                                        POS
+                                                            POS
                                                         </label>
-                                                    </div> 
-                                                </div> 
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div>
                                         <h2>RETAIL SCALE CALIBRATION</h2>
                                         <p class="form-label">(Weights & Measures)</p>
-                                        <hr> 
+                                        <hr>
 
                                     </div>
                                     <div class="my-4 row">
@@ -2102,7 +2112,7 @@
                                                 <option value="no">No</option>
                                                 <option value="yes">Yes</option>
                                                 <option value="I am interested in information on how to get certified">I am interested in information on how to get certified</option>
-                                            </select> 
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="retail_scale_calibration_service_wrapper ">
@@ -2114,15 +2124,15 @@
                                     <div>
                                         <h2>SOUND MASKING</h2>
                                         <p class="form-label">(Weights &amp; Measures)</p>
-                                        <hr>  
+                                        <hr>
                                     </div>
                                     <div class="my-4 row">
                                         <div class="col-6">
                                             <p class="form-label ">Do you install Sound Masking System?</p>
                                             <select class="form-select" aria-label="Default select example" id="sound_masking_system" name="">
                                                 <option value="no">No</option>
-                                                <option value="yes">Yes</option> 
-                                            </select> 
+                                                <option value="yes">Yes</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="sound_masking_system_wrapper">
@@ -2131,8 +2141,8 @@
                                                 <p class="form-label ">Do you provide engineering services for Sound Masking?</p>
                                                 <select class="form-select" aria-label="Default select example" id="engineering_service_for_sound_masking_system" name="">
                                                     <option value="no">No</option>
-                                                    <option value="yes">Yes</option> 
-                                                </select> 
+                                                    <option value="yes">Yes</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="">
@@ -2143,22 +2153,22 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <h2>CAD</h2> 
-                                        <hr>  
+                                        <h2>CAD</h2>
+                                        <hr>
                                     </div>
                                     <div class="my-4 row">
-                                            <div class="col-6">
-                                                <p class="form-label ">Do you provide CAD  services </p>
-                                                <select class="form-select" aria-label="Default select example" id="cad_service" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option> 
-                                                </select> 
-                                            </div>
+                                        <div class="col-6">
+                                            <p class="form-label ">Do you provide CAD services </p>
+                                            <select class="form-select" aria-label="Default select example" id="cad_service" name="">
+                                                <option value="no">No</option>
+                                                <option value="yes">Yes</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div class="cad_service_wrapper">
-                                        <div class="row my-3"> 
+                                        <div class="row my-3">
                                             <p class="form-label">What software systems do you have experience operating?</p>
-                                            <div class="col my-4"> 
+                                            <div class="col my-4">
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Bluebeam">
@@ -2198,249 +2208,248 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Smart_Sheets">
                                                     <label class="form-check-label" for="Smart_Sheets">
-                                                         Smart Sheets
+                                                        Smart Sheets
                                                     </label>
                                                 </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Service_Now">
                                                     <label class="form-check-label" for="Service_Now">
-                                                       ServiceNow
+                                                        ServiceNow
                                                     </label>
                                                 </div>
-                                                <p class="form-text">(Check all that apply)</p>  
+                                                <p class="form-text">(Check all that apply)</p>
                                             </div>
                                         </div>
-                                        <div class="row my-3"> 
+                                        <div class="row my-3">
                                             <p class="form-label">List the areas of scope you have provided CAD services for.</p>
-                                            <div class="col my-4"> 
+                                            <div class="col my-4">
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Telecom">
                                                     <label class="form-check-label" for="Telecom">
                                                         Telecom
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="video_surveillance_system">
                                                     <label class="form-check-label" for="video_surveillance_system">
-                                                    Video Surveillance System (Video/Camera/CCTV)
+                                                        Video Surveillance System (Video/Camera/CCTV)
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="cad_Wireless">
                                                     <label class="form-check-label" for="cad_Wireless">
-                                                    Wireless
+                                                        Wireless
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="cad_Security_Intrusion">
                                                     <label class="form-check-label" for="cad_Security_Intrusion">
-                                                    Security & Intrusion
+                                                        Security & Intrusion
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Low_Voltage">
                                                     <label class="form-check-label" for="Low_Voltage">
-                                                    Low Voltage
+                                                        Low Voltage
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Data">
                                                     <label class="form-check-label" for="Data">
-                                                    Data  
+                                                        Data
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="RFID">
                                                     <label class="form-check-label" for="RFID">
-                                                    RFID  
+                                                        RFID
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Access Control">
                                                     <label class="form-check-label" for="Audio_Paging">
-                                                    Audio/Paging  
+                                                        Audio/Paging
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="cad_Access_Control">
                                                     <label class="form-check-label" for="cad_Access_Control">
-                                                    Access Control
+                                                        Access Control
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="cad_Fire_Alarm">
                                                     <label class="form-check-label" for="cad_Fire_Alarm">
-                                                    Fire Alarm
+                                                        Fire Alarm
                                                     </label>
-                                                </div>   
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="cad_Life Safety">
                                                     <label class="form-check-label" for="cad_Life Safety">
-                                                    Life Safety
+                                                        Life Safety
                                                     </label>
-                                                </div>   
+                                                </div>
 
 
-                                                <p class="form-text">(Check all that apply)</p>  
+                                                <p class="form-text">(Check all that apply)</p>
                                             </div>
                                         </div>
-                                        <div class="row my-3"> 
+                                        <div class="row my-3">
                                             <p class="form-label">List the different stages you have experience performing.</p>
-                                            <div class="col my-4"> 
+                                            <div class="col my-4">
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Design">
                                                     <label class="form-check-label" for="Design">
                                                         Design
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Conceptual">
                                                     <label class="form-check-label" for="Conceptual">
                                                         Conceptual
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Prototype">
                                                     <label class="form-check-label" for="Prototype">
                                                         Prototype
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Pilot">
                                                     <label class="form-check-label" for="Pilot">
                                                         Pilot
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Pre_Construction">
                                                     <label class="form-check-label" for="Pre_Construction">
                                                         Pre-Construction
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Construction">
                                                     <label class="form-check-label" for="Construction">
                                                         Construction
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Start_Up">
                                                     <label class="form-check-label" for="Start_Up">
                                                         Start-Up
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Composite">
                                                     <label class="form-check-label" for="Composite">
-                                                         Composite
+                                                        Composite
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Permit_Set">
                                                     <label class="form-check-label" for="Permit_Set">
-                                                         Permit Set
+                                                        Permit Set
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Permit_Set">
                                                     <label class="form-check-label" for="Permit_Set">
-                                                         Permit Set
+                                                        Permit Set
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Revision_">
                                                     <label class="form-check-label" for="2">
-                                                    Revision 1
+                                                        Revision 1
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Revision_2">
                                                     <label class="form-check-label" for="Revision_2">
-                                                    Revision 2
+                                                        Revision 2
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="As_Built">
                                                     <label class="form-check-label" for="As_Built">
-                                                    As-Built
+                                                        As-Built
                                                     </label>
-                                                </div>    
+                                                </div>
 
-                                                <p class="form-text">(Check all that apply)</p>  
+                                                <p class="form-text">(Check all that apply)</p>
                                             </div>
                                         </div>
-                                        <div class="row my-3"> 
+                                        <div class="row my-3">
                                             <p class="form-label">Designate what level of experience you have:</p>
-                                            <div class="col my-4"> 
+                                            <div class="col my-4">
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Intern">
                                                     <label class="form-check-label" for="Intern">
-                                                    Intern
+                                                        Intern
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Drafter">
                                                     <label class="form-check-label" for="Drafter">
                                                         Drafter
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Designer">
                                                     <label class="form-check-label" for="Designer">
                                                         Designer
                                                     </label>
-                                                </div>    
+                                                </div>
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="Engineer">
                                                     <label class="form-check-label" for="Engineer">
                                                         Engineer
                                                     </label>
-                                                </div>    
+                                                </div>
 
-                                          
 
-                                                <p class="form-text">(Check all that apply)</p>  
+
+                                                <p class="form-text">(Check all that apply)</p>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
 
 
                                 </div>
 
                                 <a class="btn btn-primary" onclick="stepper1.previous()">Previous</a>
                                 <a class="btn btn-primary" onclick="stepper1.next()">Next</a>
-                            </div>
-                            <!-- ********************************** -->
+                            </div> 
                             <div id="test-l-4" role="tabpanel" class="bs-stepper-pane" aria-labelledby="stepper1trigger4">
                                 <h2 class="text-primary">CERTIFICATIONS</h2>
                                 <hr>
@@ -3018,7 +3027,7 @@
                                             <br>
                                             <span class="fw-bold">3.5.1.</span> VENDOR agrees to accept a seven percent (7%) discount applied to its invoice in exchange for payment within three (3) days of VENDOR's submission of an invoice for payment and completion of approvable deliverables identified in a Statement of Work.
                                             <br>
-                                            <span class="fw-bold"> 3.6.</span> Payment Disputes. Any and all disputes arising out of payments allegedly due and owed under this Agreement or any other amount alleged to be due to VENDOR must be made within thirty (30) days of the event or occurrence giving rise to such dispute. Written notice of the dispute shall be delivered to partnersupport@telaid.com and will be deemed made upon receipt of such notice. Any and all such disputes will be evaluated by the COMPANY, and a response will be provided to VENDOR within a reasonable period of time.
+                                            <span class="fw-bold"> 3.6.</span> Payment Disputes. Any and all disputes arising out of payments allegedly due and owed under this Agreement or any other amount alleged to be due to VENDOR must be made within thirty (30) days of the event or occurrence giving rise to such dispute. Written notice of the dispute shall be delivered to partnersupport@techyeah.com and will be deemed made upon receipt of such notice. Any and all such disputes will be evaluated by the COMPANY, and a response will be provided to VENDOR within a reasonable period of time.
                                             <br>
                                             <br>
                                             <p class="fw-bold"> 4. INDEPENDENT RELATIONSHIP</p>
@@ -3122,7 +3131,7 @@
                                             <br>
                                             <span class="fw-bold">9.1.</span> Term. This Agreement becomes effective the date on which VENDOR acknowledges its acceptance of its terms, whether through written or electronic signatures, and remains in effect for a period of one year from the effective date. The Agreement will automatically renew thereafter in one-year increments until terminated by either party.
                                             <br>
-                                            <span class="fw-bold">9.2.</span> Termination. Either party may terminate this agreement upon 30 days written notice to partnersupport@telaid.com. In the event of termination by either party, VENDOR remains obligated to complete any oustanding or unfinished Statements of Work in a manner consistent with this Agreement and the Statement of Work, and COMPANY remains obligated to process and pay VENDOR according to the terms of this Agreement.
+                                            <span class="fw-bold">9.2.</span> Termination. Either party may terminate this agreement upon 30 days written notice to partnersupport@techyeah.com. In the event of termination by either party, VENDOR remains obligated to complete any oustanding or unfinished Statements of Work in a manner consistent with this Agreement and the Statement of Work, and COMPANY remains obligated to process and pay VENDOR according to the terms of this Agreement.
                                             <br>
                                             <br>
                                             <p class="fw-bold">10. NON-DISCLOSURE & NON-SOLICITATION.</p>
@@ -3152,7 +3161,7 @@
                                             <br>
 
                                             <span class="fw-bold">12.3.</span> Notices. All notices, requests, demands and other communications hereunder shall be in writing and shall be personally delivered or sent by registered or certified mail, postage prepaid, or overnight courier, to the address set forth in each Party's signature block hereto. Either Party may change its address for receiving notice by giving written notice to the other Party.
-                                            Questions about this Agreement or any of its terms may be directed to Telaid, Attn: Partner Support, 13 West Main Street, Niantic, CT 06357 or e-mail partnersupport@telaid.com. 12.4. Successors & Assigns. VENDOR may not assign any or all of its rights under this Agreement without the prior written consent of the COMPANY. Any attempted assignment or assumption without such written consent shall be null and void and without legal effect. Nothing expressed or referred to in this Agreement shall be construed to give any Person other than the Parties any legal or equitable right, remedy or claim under or with respect to this Agreement or any provision of this Agreement.
+                                            Questions about this Agreement or any of its terms may be directed to Telaid, Attn: Partner Support, 13 West Main Street, Niantic, CT 06357 or e-mail partnersupport@techyeah.com. 12.4. Successors & Assigns. VENDOR may not assign any or all of its rights under this Agreement without the prior written consent of the COMPANY. Any attempted assignment or assumption without such written consent shall be null and void and without legal effect. Nothing expressed or referred to in this Agreement shall be construed to give any Person other than the Parties any legal or equitable right, remedy or claim under or with respect to this Agreement or any provision of this Agreement.
                                             <br>
                                             <span class="fw-bold">12.4.</span> Governing Law. This Agreement shall be interpreted and construed under the laws of the State of Connecticut.
                                             <br>
@@ -3184,7 +3193,7 @@
                                             <br>
                                             <br>
 
-                                            IF THESE STEPS ARE NOT WHAT YOU INTEND, OR IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS, THEN DO NOT CLICK ACCEPT. ANY QUESTIONS YOU HAVE ABOUT THIS AGREEMENT MAY BE DIRECTED TO: partnersupport@telaid.com
+                                            IF THESE STEPS ARE NOT WHAT YOU INTEND, OR IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS, THEN DO NOT CLICK ACCEPT. ANY QUESTIONS YOU HAVE ABOUT THIS AGREEMENT MAY BE DIRECTED TO: partnersupport@techyeah.com
                                             <br>
                                             <br>
                                             DECLARATION OF INDEPENDENT BUSINESS
@@ -3275,11 +3284,24 @@
     const licensed_electrician = document.querySelector("#licensed_electrician");
     const state_electrical_license = document.querySelector("#state_electrical_license");
     const wireless_installls = document.querySelector("#wireless_installls");
-    const other_software_license_checkbox_wrapper = document.querySelector("#other_software_license_checkbox_wrapper"); 
-    const network_hardware_installs = document.querySelector("#network_hardware_installs");  
-    const retail_scale_calibration_service = document.querySelector("#retail_scale_calibration_service");  
-    const sound_masking_system = document.querySelector("#sound_masking_system");  
-    const cad_service = document.querySelector("#cad_service");  
+    const other_software_license_checkbox_wrapper = document.querySelector("#other_software_license_checkbox_wrapper");
+    const network_hardware_installs = document.querySelector("#network_hardware_installs");
+    const retail_scale_calibration_service = document.querySelector("#retail_scale_calibration_service");
+    const sound_masking_system = document.querySelector("#sound_masking_system");
+    const cad_service = document.querySelector("#cad_service");
+    const license_for_signage_installs = document.querySelector("#license_for_signage_installs");
+
+    const automation_robotics_facilities = document.querySelectorAll(".automation_robotics_facilities");
+    const automation = document.querySelector("#automation");
+    const robotics = document.querySelector("#robotics");
+    const facilities_maintenace = document.querySelector("#facilities_maintenace");
+
+    const digital_signage_installs = document.querySelectorAll(".digital_signage_installs");
+    const indoor_digital_signage_installs = document.querySelector("#indoor_digital_signage_installs");
+    const outdoor_digital_signage_installs = document.querySelector("#outdoor_digital_signage_installs");
+
+    const general_contractor_license = document.querySelector("#general_contractor_license");
+    const mechanical_contractor_license = document.querySelector("#mechanical_contractor_license");
 
     const union_affiliation_wrapper = document.querySelector(".union_affiliation_wrapper");
     const w2_employee_info = document.querySelector(".w2_employee_info");
@@ -3304,10 +3326,15 @@
     const state_electrical_license_wrapper = document.querySelector(".state_electrical_license_wrapper");
     const wireless_installls_wrapper = document.querySelector(".wireless_installls_wrapper");
     const other_software_license_wrapper = document.querySelector(".other_software_license_wrapper");
-    const network_hardware_installs_wrapper = document.querySelector(".network_hardware_installs_wrapper"); 
-    const retail_scale_calibration_service_wrapper = document.querySelector(".retail_scale_calibration_service_wrapper"); 
-    const sound_masking_system_wrapper = document.querySelector(".sound_masking_system_wrapper"); 
-    const cad_service_wrapper = document.querySelector(".cad_service_wrapper"); 
+    const network_hardware_installs_wrapper = document.querySelector(".network_hardware_installs_wrapper");
+    const retail_scale_calibration_service_wrapper = document.querySelector(".retail_scale_calibration_service_wrapper");
+    const sound_masking_system_wrapper = document.querySelector(".sound_masking_system_wrapper");
+    const cad_service_wrapper = document.querySelector(".cad_service_wrapper");
+    const automation_robotics_facilities_maintenance_wrapper = document.querySelector(".automation_robotics_facilities_maintenance_wrapper");
+    const general_contractor_license_wrapper = document.querySelector(".general_contractor_license_wrapper");
+    const mechanical_contractor_license_wrapper = document.querySelector(".mechanical_contractor_license_wrapper");
+    const digital_signage_installs_wrapper = document.querySelector(".digital_signage_installs_wrapper");
+    const license_for_signage_installs_wrapper = document.querySelector(".license_for_signage_installs_wrapper");
 
     union_affiliation_wrapper.style.display = "none";
     w2_employee_info.style.display = "none";
@@ -3332,10 +3359,15 @@
     state_electrical_license_wrapper.style.display = "none";
     wireless_installls_wrapper.style.display = "none";
     other_software_license_wrapper.style.display = "none";
-    network_hardware_installs_wrapper.style.display = "none"; 
-    retail_scale_calibration_service_wrapper.style.display = "none"; 
-    sound_masking_system_wrapper.style.display = "none"; 
-    cad_service_wrapper.style.display = "none"; 
+    network_hardware_installs_wrapper.style.display = "none";
+    retail_scale_calibration_service_wrapper.style.display = "none";
+    sound_masking_system_wrapper.style.display = "none";
+    cad_service_wrapper.style.display = "none";
+    automation_robotics_facilities_maintenance_wrapper.style.display = "none";
+    general_contractor_license_wrapper.style.display = "none";
+    mechanical_contractor_license_wrapper.style.display = "none";
+    digital_signage_installs_wrapper.style.display = "none";
+    license_for_signage_installs_wrapper.style.display = "none";
 
 
     is_union_shop.addEventListener('change', function() {
@@ -3491,8 +3523,8 @@
         }
 
     });
-  
-    
+
+
     state_electrical_license.addEventListener('change', function() {
         if (this.value === "no") {
             state_electrical_license_wrapper.style.display = "none";
@@ -3508,22 +3540,78 @@
             wireless_installls_wrapper.style.display = "none";
         }
         if (this.value === "yes") {
-            wireless_installls_wrapper.style.display = "block"; 
+            wireless_installls_wrapper.style.display = "block";
         }
 
-    }); 
-    other_software_license_checkbox_wrapper.addEventListener('click', function(){
+    });
+    other_software_license_checkbox_wrapper.addEventListener('click', function() {
 
-        if(other_software_license.checked == true){ 
+        if (other_software_license.checked == true) {
             other_software_license_wrapper.style.display = "block";
-        }else{
+        } else {
             other_software_license_wrapper.style.display = "none";
         }
     });
 
- 
-     
- 
+    automation_robotics_facilities.forEach(function(automation_robotics_facilitiesElement) {
+        automation_robotics_facilitiesElement.addEventListener('click', function() {
+            if (automation.checked == true) {
+                automation_robotics_facilities_maintenance_wrapper.style.display = "block";
+            } else if (robotics.checked == true) {
+                automation_robotics_facilities_maintenance_wrapper.style.display = "block";
+            } else if (facilities_maintenace.checked == true) {
+                automation_robotics_facilities_maintenance_wrapper.style.display = "block";
+            } else {
+                automation_robotics_facilities_maintenance_wrapper.style.display = "none";
+
+            }
+        });
+    });
+    digital_signage_installs.forEach(function(digital_signage_installsElement) {
+        digital_signage_installsElement.addEventListener('click', function() {
+            if (indoor_digital_signage_installs.checked == true) {
+                digital_signage_installs_wrapper.style.display = "block";
+            } else if (outdoor_digital_signage_installs.checked == true) {
+                digital_signage_installs_wrapper.style.display = "block";
+            } else {
+                digital_signage_installs_wrapper.style.display = "none";
+
+            }
+        });
+    });
+
+
+
+    general_contractor_license.addEventListener('change', function() {
+        if (this.value === "no") {
+            general_contractor_license_wrapper.style.display = "none";
+        }
+        if (this.value === "yes") {
+            general_contractor_license_wrapper.style.display = "block";
+
+        }
+
+    });
+    license_for_signage_installs.addEventListener('change', function() {
+        if (this.value === "no") {
+            license_for_signage_installs_wrapper.style.display = "none";
+        }
+        if (this.value === "yes") {
+            license_for_signage_installs_wrapper.style.display = "block";
+
+        }
+
+    });
+    mechanical_contractor_license.addEventListener('change', function() {
+        if (this.value === "no") {
+            mechanical_contractor_license_wrapper.style.display = "none";
+        }
+        if (this.value === "yes") {
+            mechanical_contractor_license_wrapper.style.display = "block";
+
+        }
+
+    });
     network_hardware_installs.addEventListener('change', function() {
         if (this.value === "no") {
             network_hardware_installs_wrapper.style.display = "none";
@@ -3534,7 +3622,7 @@
         }
 
     });
- 
+
     retail_scale_calibration_service.addEventListener('change', function() {
         if (this.value === "no") {
             retail_scale_calibration_service_wrapper.style.display = "none";
