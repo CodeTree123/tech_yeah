@@ -261,84 +261,84 @@
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Company Contact Name*</p>
-                                        <input type="text" class="form-control" id="shipping_company_contact_name" name="">
+                                        <input type="text" class="form-control" id="company_contact_name" name="company_contact_name">
                                         <label for="company_contact_name" class="form-text mb-3">Name of person who is your main contact for company (e.g. owner, etc).</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">Main Phone*</p>
-                                        <input type="tel" class="form-control" id="shipping_main_phone" name="">
-                                        <label for="main_phone" class="form-text mb-3">Main phone number Telaid should call (e.g. dispatch phone if you have different numbers).</label>
+                                        <input type="tel" class="form-control" id="company_main_phone" name="company_main_phone">
+                                        <label for="company_main_phone" class="form-text mb-3">Main phone number Telaid should call (e.g. dispatch phone if you have different numbers).</label>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Emergency Phone*</p>
-                                        <input type="tel" class="form-control" id="shipping_emergency_phone" name="">
+                                        <input type="tel" class="form-control" id="emergency_phone" name="emergency_phone">
                                         <label for="emergency_phone" class="form-text mb-3">Phone number to be called for urgent situations that Telaid needs to get in contact with someone immediately.</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">Mobile Default Phone</p>
-                                        <input type="tel" class="form-control" id="shipping_mobile_default_phone" name="">
+                                        <input type="tel" class="form-control" id="mobile_default_phone" name="mobile_default_phone">
                                         <label for="mobile_default_phone" class="form-text mb-3">This cell number will receive cc text notifications from our text notification system.</label>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Main Email*</p>
-                                        <input type="email" class="form-control" id="shipping_main_email" name="">
+                                        <input type="email" class="form-control" id="main_email" name="main_email">
                                         <label for="main_email" class="form-text mb-3">Note: If none of the emails below are populated, the main email will receive all notifications from Telaid's online work order and payment system.</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">PO Email</p>
-                                        <input type="email" class="form-control" id="shipping_po_email" name="">
+                                        <input type="email" class="form-control" id="po_email" name="po_email">
                                         <label for="po_email" class="form-text mb-3">This email will receive all work order/dispatch notifications from Telaid (usually designed for your Dispatch Contact)</label>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Status Alert Email</p>
-                                        <input type="email" class="form-control" id="shipping_status_alert_email" name="">
-                                        <label for="main_email" class="form-text mb-3">This email will receive any status alert notifications emails from Telaid (usually designed for your Dispatch Contact)</label>
+                                        <input type="email" class="form-control" id="shipping_status_alert_email" name="shipping_status_alert_email">
+                                        <label for="shipping_status_alert_email" class="form-text mb-3">This email will receive any status alert notifications emails from Telaid (usually designed for your Dispatch Contact)</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">Compliance Alert Email</p>
-                                        <input type="email" class="form-control" id="shipping_complience_status_alert_email" name="">
-                                        <label for="po_email" class="form-text mb-3">This email will receive our automatic notifications when your COIs are coming up for renewal or have expired (usually design for the owner/office manager)</label>
+                                        <input type="email" class="form-control" id="shipping_complience_status_alert_email" name="shipping_complience_status_alert_email">
+                                        <label for="shipping_complience_status_alert_email" class="form-text mb-3">This email will receive our automatic notifications when your COIs are coming up for renewal or have expired (usually design for the owner/office manager)</label>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Portal Notification Email</p>
-                                        <input type="email" class="form-control" id="shipping_portal_notification_email" name="">
-                                        <label for="main_email" class="form-text mb-3">This email will receive and email with any notes/docs that have been uploaded to your vendor portal</label>
+                                        <input type="email" class="form-control" id="shipping_portal_notification_email" name="shipping_portal_notification_email">
+                                        <label for="shipping_portal_notification_email" class="form-text mb-3">This email will receive and email with any notes/docs that have been uploaded to your vendor portal</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">QuickPay Email</p>
-                                        <input type="email" class="form-control" id="shipping_quick_pay_email" name="">
-                                        <label for="po_email" class="form-text mb-3">This email will receive any daily/weekly QuickPay emails (usually designed for your Accounts Receivable contact, if applicable)</label>
+                                        <input type="email" class="form-control" id="shipping_quick_pay_email" name="shipping_quick_pay_email">
+                                        <label for="shipping_quick_pay_email" class="form-text mb-3">This email will receive any daily/weekly QuickPay emails (usually designed for your Accounts Receivable contact, if applicable)</label>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Banking (EFT) Contact Name*</p>
-                                        <input type="email" class="form-control" id="shipping_banking_eft_contact_name" name="">
+                                        <input type="email" class="form-control" id="shipping_banking_eft_contact_name" name="shipping_banking_eft_contact_name">
                                         <label for="shipping_banking_eft_contact_name" class="form-text mb-3">This is the owner or person within your company who owns the EFT information for your company profile.</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">Banking (EFT) Contact Phone*</p>
-                                        <input type="email" class="form-control" id="shipping_banking_eft_contact_phone" name="">
+                                        <input type="email" class="form-control" id="shipping_banking_eft_contact_phone" name="shipping_banking_eft_contact_phone">
                                         <label for="shipping_banking_eft_contact_phone" class="form-text mb-3">Please provide the phone number for the person who is managing your company EFT information.</label>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <p class="form-label ">Banking (EFT) Contact Email*</p>
-                                        <input type="email" class="form-control" id="shipping_banking_eft_contact_email" name="">
+                                        <input type="email" class="form-control" id="shipping_banking_eft_contact_email" name="shipping_banking_eft_contact_email">
                                         <label for="shipping_banking_eft_contact_email" class="form-text mb-3">Please provide the email address for the person who is managing your company EFT information.</label>
                                     </div>
                                     <div class="col">
                                         <p class="form-label ">Are you a union shop?</p>
-                                        <select class="form-select" aria-label="Default select example" id="is_union_shop" name="">
+                                        <select class="form-select" aria-label="Default select example" id="is_union_shop" name="is_union_shop">
                                             <option value="no">No</option>
                                             <option value="yes">Yes</option>
                                         </select>
@@ -347,12 +347,12 @@
                                 <div class="row g-3 union_affiliation_wrapper">
                                     <div class="col-6">
                                         <label for="union_affiliation" class="form-label mb-3">Provide your company union affiliation(s):</label>
-                                        <input type="text" class="form-control" id="union_affiliation" name="">
+                                        <input type="text" class="form-control" id="union_affiliation" name="union_affiliation">
                                     </div>
                                 </div>
                                 <div class="my-3">
                                     <p class="form-label ">How did you hear about Telaid?*</p>
-                                    <select class="form-select" aria-label="Default select example" id="hearing_source" name="">
+                                    <select class="form-select" aria-label="Default select example" id="hearing_source" name="hearing_source">
                                         <option value="Telaid Employee Referral">Telaid Employee Referral</option>
                                         <option value="Existing Partner Referral">Existing Partner Referral</option>
                                         <option value="Job Board Posting">Job Board Posting</option>
@@ -368,8 +368,8 @@
                                     <hr>
                                     <p class="form-label ">I confirm, my company does not use any Sub-Contractors (only W2 employees) on our projects*</p>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="no_sub_contactor_agreement" name="">
-                                        <label class="form-check-label" for="no_sub_contactor_agreement">
+                                        <input class="form-check-input" type="checkbox" value="Yes" id="does_not_use_sub_contractors" name="does_not_use_sub_contractors">
+                                        <label class="form-check-label" for="does_not_use_sub_contractors">
                                             Yes
                                         </label>
                                     </div>
@@ -377,18 +377,18 @@
                                         <div class="my-4">
                                             <p class="form-label ">How many Lead Technicians (W2 employees) do you employ? </p>
                                             <p class="form-text ">This should be a numeric value. </p>
-                                            <input type="number" class="form-control" id="number_of_lead_technician" name="">
+                                            <input type="number" class="form-control" id="number_of_lead_technician" name="number_of_lead_technician">
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label "> How many Level 1 Technicians (W2 employees) do you employ?</p>
                                             <p class="form-text ">This should be a numeric value. </p>
-                                            <input type="number" class="form-control" id="number_of_level_technician" name="">
+                                            <input type="number" class="form-control" id="number_of_level_one_technician" name="number_of_level_one_technician">
 
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label">Do your techs go to site with smartphones/tablets? </p>
                                             <p class="form-text  ">e.g. Have the ability to check in/out electronically as well as upload deliverables on site.</p>
-                                            <select class="form-select" aria-label="Default select example" id="tech_white_smartphone" name="">
+                                            <select class="form-select" aria-label="Default select example" id="techs_go_to_site_with_smartphone" name="techs_go_to_site_with_smartphone">
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                             </select>
@@ -396,7 +396,7 @@
                                         <div class="my-4">
                                             <p class="form-label ">Can you support a 4 HR Response Time?</p>
                                             <p class="form-text ">Within an hour radius</p>
-                                            <select class="form-select" aria-label="Default select example" id="four_hour_response" name="">
+                                            <select class="form-select" aria-label="Default select example" id="four_hour_response" name="four_hour_response">
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                             </select>
@@ -404,28 +404,28 @@
                                         <div class="my-4">
                                             <p class="form-label ">Can you support a 2 HR Response Time?</p>
                                             <p class="form-text ">Within an hour radius</p>
-                                            <select class="form-select" aria-label="Default select example" id="two_hour_response" name="">
+                                            <select class="form-select" aria-label="Default select example" id="two_hour_response" name="two_hour_response">
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Can you support night/holidays/weekend work?</p>
-                                            <select class="form-select" aria-label="Default select example" id="night_holiday_weekend_work" name="">
+                                            <select class="form-select" aria-label="Default select example" id="night_holiday_weekend_work" name="night_holiday_weekend_work">
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Are you willing to travel (routes)?</p>
-                                            <select class="form-select" aria-label="Default select example" id="willing_to_travel" name="">
+                                            <select class="form-select" aria-label="Default select example" id="willing_to_travel" name="willing_to_travel">
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
-                                            <p class="form-label ">Do you have capacity to store assets for Telaid?</p>
-                                            <select class="form-select" aria-label="Default select example" id="store_capacity" name="">
+                                            <p class="form-label ">Do you have capacity to store assets for Techyeah?</p>
+                                            <select class="form-select" aria-label="Default select example" id="store_capacity" name="store_capacity">
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                                 <option value="interested">Interested, Need More Info</option>
@@ -434,7 +434,7 @@
                                     </div>
                                     <p class="form-label ">Will you take Flat Rate Projects?</p>
                                     <p class="form-text ">Most of our project and rollout work is a flat rate project rate.</p>
-                                    <select class="form-select" aria-label="Default select example" id="takes_flate_rate_project" name="">
+                                    <select class="form-select" aria-label="Default select example" id="takes_flate_rate_project" name="takes_flate_rate_project">
                                         <option value="yes">Yes</option>
                                         <option value="no">No</option>
                                     </select>
@@ -3263,7 +3263,7 @@
     // no_sub_contactor_agreement if yes then show w2_employee_info_wrapper  div  
     //  service_call_payment if yes,hourly and yes,fixed doller amount then show service_call_rate_wrapper  div  
     const is_union_shop = document.querySelector("#is_union_shop");
-    const no_sub_contactor_agreement = document.querySelector("#no_sub_contactor_agreement");
+    const does_not_use_sub_contractors = document.querySelector("#does_not_use_sub_contractors");
     const service_call_payment = document.querySelector("#service_call_payment");
     const structured_cabling = document.querySelector("#structured_cabling");
     const test_result_copper = document.querySelector("#test_result_copper");
@@ -3379,7 +3379,7 @@
             union_affiliation_wrapper.style.display = "none";
         }
     });
-    no_sub_contactor_agreement.addEventListener('change', function() {
+    does_not_use_sub_contractors.addEventListener('change', function() {
         if (this.checked === true) {
             w2_employee_info.style.display = "block";
         }
