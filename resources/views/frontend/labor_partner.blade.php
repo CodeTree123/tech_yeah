@@ -453,19 +453,19 @@
                                     <div class="row g-3">
                                         <div class="col-3">
                                             <label for="labor_travel_rate" class="form-label mb-3">Labor Travel Rate</label>
-                                            <input type="text" class="form-control" id="shipping_labor_travel_rate" name="">
+                                            <input type="number" class="form-control" id="shipping_labor_travel_rate" name="shipping_labor_travel_rate">
                                         </div>
                                         <div class="col-3">
                                             <label for="security_travel_rate" class="form-label mb-3">Security Travel Rate</label>
-                                            <input type="tel" class="form-control" id="shipping_security_travel_rate" name="">
+                                            <input type="number" class="form-control" id="security_travel_rate" name="security_travel_rate">
                                         </div>
                                         <div class="col-3">
                                             <label for="electrical_travel_rate" class="form-label mb-3">Electrical Travel Rate</label>
-                                            <input type="text" class="form-control" id="electrical_travel_rate" name="">
+                                            <input type="number" class="form-control" id="electrical_travel_rate" name="electrical_travel_rate">
                                         </div>
                                         <div class="col-3">
                                             <label for="retail_scale_calibration_travel_rate" class="form-label mb-3">Retail Scale Calibration Travel Rate</label>
-                                            <input type="tel" class="form-control" id="retail_scale_calibration_travel_rate" name="">
+                                            <input type="number" class="form-control" id="retail_scale_calibration_travel_rate" name="retail_scale_calibration_travel_rate">
                                         </div>
                                     </div>
                                     <div>
@@ -482,14 +482,14 @@
                                     <div>
                                         <p class="form-label ">Service Call Minimum</p>
                                         <p class="form-text ">Do you charge a minimum dollar or hourly fee for service calls?</p>
-                                        <select class="form-select" aria-label="Default select example" id="service_call_payment" name="">
+                                        <select class="form-select" aria-label="Default select example" id="service_call_payment" name="service_call_payment">
                                             <option value="no">No</option>
                                             <option value="yes,hourly">Yes,Hourly</option>
                                             <option value="yes,fixed doller amount">Yes,Fixed Doller Amount</option>
                                         </select>
                                         <div class="service_call_rate_wrapper my-3">
                                             <label for=" service_call_rate" class="form-label mb-3">Service Call Minimum Hour Amount</label>
-                                            <input type="number" class="form-control" id="service_call_rate" name="">
+                                            <input type="number" class="form-control" id="service_call_rate" name="service_call_rate">
                                         </div>
                                     </div>
 
@@ -508,25 +508,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_first_shift" class="form-label mb-3">Labor - 1st Shift</label>
-                                                <input type="text" class="form-control" id="labor_first_shift" name="">
+                                                <input type="number" class="form-control" id="labor_first_shift" name="labor_first_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_first_shift" class="form-label mb-3">Security - 1st Shift</label>
-                                                <input type="tel" class="form-control" id="security_first_shift" name="">
+                                                <input type="number" class="form-control" id="security_first_shift" name="security_first_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_first_shift" class="form-label mb-3">Electrical - 1st Shift</label>
-                                                <input type="text" class="form-control" id="electrical_first_shift" name="">
+                                                <input type="number" class="form-control" id="electrical_first_shift" name="electrical_first_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_first_shift" class="form-label mb-3">Retail Scale Calibration - 1st Shift</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_first_shift" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_first_shift" name="retail_scale_calibration_first_shift">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_first_shift" class="form-label mb-3">Facilities Maintenance - 1st Shift</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_first_shift" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_first_shift" name="facilities_maintenance_first_shift">
                                             </div>
                                         </div>
                                     </div>
@@ -537,25 +537,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_second_shift" class="form-label mb-3">Labor - 2nd Shift</label>
-                                                <input type="text" class="form-control" id="labor_second_shift" name="">
+                                                <input type="number" class="form-control" id="labor_second_shift" name="labor_second_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_second_shift" class="form-label mb-3">Security - 2nd Shift</label>
-                                                <input type="tel" class="form-control" id="security_second_shift" name="">
+                                                <input type="number" class="form-control" id="security_second_shift" name="security_second_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_second_shift" class="form-label mb-3">Electrical - 2nd Shift</label>
-                                                <input type="text" class="form-control" id="electrical_second_shift" name="">
+                                                <input type="number" class="form-control" id="electrical_second_shift" name="electrical_second_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_second_shift" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - 2nd Shift</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_second_shift" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_second_shift" name="retail_scale_calibration_second_shift">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_second_shift" class="form-label mb-3">Facilities Maintenance - 2nd Shift</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_second_shift" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_second_shift" name="facilities_maintenance_second_shift">
                                             </div>
                                         </div>
                                     </div>
@@ -566,25 +566,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_ot_rate" class="form-label mb-3">Labor - OT Rate</label>
-                                                <input type="text" class="form-control" id="labor_ot_rate" name="">
+                                                <input type="number" class="form-control" id="labor_ot_rate" name="labor_ot_rate">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_ot_rate" class="form-label mb-3">Security - OT Rate</label>
-                                                <input type="tel" class="form-control" id="security_ot_rate" name="">
+                                                <input type="number" class="form-control" id="security_ot_rate" name="security_ot_rate">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_ot_rate" class="form-label mb-3">Electrical - OT Rate</label>
-                                                <input type="text" class="form-control" id="electrical_ot_rate" name="">
+                                                <input type="number" class="form-control" id="electrical_ot_rate" name="electrical_ot_rate">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_ot_rate" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - OT Rate</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_ot_rate" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_ot_rate" name="retail_scale_calibration_ot_rate">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_ot_rate" class="form-label mb-3">Facilities Maintenance - OT Rate</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_ot_rate" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_ot_rate" name="">
                                             </div>
                                         </div>
                                     </div>
@@ -595,25 +595,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_third_shift" class="form-label mb-3">Labor - 3rd Shift</label>
-                                                <input type="text" class="form-control" id="labor_third_shift" name="">
+                                                <input type="number" class="form-control" id="labor_third_shift" name="labor_third_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_third_shift" class="form-label mb-3">Security - 3rd Shift</label>
-                                                <input type="tel" class="form-control" id="security_third_shift" name="">
+                                                <input type="number" class="form-control" id="security_third_shift" name="security_third_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_third_shift" class="form-label mb-3">Electrical - 3rd Shift</label>
-                                                <input type="text" class="form-control" id="electrical_third_shift" name="">
+                                                <input type="number" class="form-control" id="electrical_third_shift" name="electrical_third_shift">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_third_shift" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - 3rd Shift</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_third_shift" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_third_shift" name="retail_scale_calibration_third_shift">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_third_shift" class="form-label mb-3">Facilities Maintenance - 3rd Shift</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_third_shift" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_third_shift" name="facilities_maintenance_third_shift">
                                             </div>
                                         </div>
                                     </div>
@@ -624,25 +624,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_Saturday" class="form-label mb-3">Labor - Saturday</label>
-                                                <input type="text" class="form-control" id="labor_Saturday" name="">
+                                                <input type="number" class="form-control" id="labor_Saturday" name="labor_Saturday">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_Saturday" class="form-label mb-3">Security - Saturday</label>
-                                                <input type="tel" class="form-control" id="security_Saturday" name="">
+                                                <input type="number" class="form-control" id="security_Saturday" name="security_Saturday">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_Saturday" class="form-label mb-3">Electrical - Saturday</label>
-                                                <input type="text" class="form-control" id="electrical_Saturday" name="">
+                                                <input type="number" class="form-control" id="electrical_Saturday" name="electrical_Saturday">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_Saturday" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - Saturday</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_Saturday" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_Saturday" name="retail_scale_calibration_Saturday">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_Saturday" class="form-label mb-3">Facilities Maintenance - Saturday</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_Saturday" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_Saturday" name="facilities_maintenance_Saturday">
                                             </div>
                                         </div>
                                     </div>
@@ -653,25 +653,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_Sunday" class="form-label mb-3">Labor - Sunday</label>
-                                                <input type="text" class="form-control" id="labor_Sunday" name="">
+                                                <input type="number" class="form-control" id="labor_Sunday" name="labor_Sunday">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_Sunday" class="form-label mb-3">Security - Sunday</label>
-                                                <input type="tel" class="form-control" id="security_Sunday" name="">
+                                                <input type="number" class="form-control" id="security_Sunday" name="security_Sunday">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_Sunday" class="form-label mb-3">Electrical - Sunday</label>
-                                                <input type="text" class="form-control" id="electrical_Sunday" name="">
+                                                <input type="number" class="form-control" id="electrical_Sunday" name="electrical_Sunday">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_Sunday" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - Sunday</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_Sunday" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_Sunday" name="retail_scale_calibration_Sunday">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_Sunday" class="form-label mb-3">Facilities Maintenance - Sunday</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_Sunday" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_Sunday" name="facilities_maintenance_Sunday">
                                             </div>
                                         </div>
                                     </div>
@@ -682,25 +682,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_Holidays" class="form-label mb-3">Labor - Holidays</label>
-                                                <input type="text" class="form-control" id="labor_Holidays" name="">
+                                                <input type="number" class="form-control" id="labor_Holidays" name="labor_Holidays">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_Holidays" class="form-label mb-3">Security - Holidays</label>
-                                                <input type="tel" class="form-control" id="security_Holidays" name="">
+                                                <input type="number" class="form-control" id="security_Holidays" name="security_Holidays">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_Holidays" class="form-label mb-3">Electrical - Holidays</label>
-                                                <input type="text" class="form-control" id="electrical_Holidays" name="">
+                                                <input type="number" class="form-control" id="electrical_Holidays" name="electrical_Holidays">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_Holidays" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - Holidays</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_Holidays" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_Holidays" name="retail_scale_calibration_Holidays">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_Holidays" class="form-label mb-3">Facilities Maintenance - Holidays</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_Holidays" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_Holidays" name="facilities_maintenance_Holidays">
                                             </div>
                                         </div>
                                     </div>
@@ -711,25 +711,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_4hr_Response" class="form-label mb-3">Labor - 4hr Response</label>
-                                                <input type="text" class="form-control" id="labor_4hr_Response" name="">
+                                                <input type="number" class="form-control" id="labor_4hr_Response" name="labor_4hr_Response">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_4hr_Response" class="form-label mb-3">Security - 4hr Response</label>
-                                                <input type="tel" class="form-control" id="security_4hr_Response" name="">
+                                                <input type="number" class="form-control" id="security_4hr_Response" name="security_4hr_Response">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_4hr_Response" class="form-label mb-3">Electrical - 4hr Response</label>
-                                                <input type="text" class="form-control" id="electrical_4hr_Response" name="">
+                                                <input type="number" class="form-control" id="electrical_4hr_Response" name="electrical_4hr_Response">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_4hr_Response" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - 4hr Response</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_4hr_Response" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_4hr_Response" name="retail_scale_calibration_4hr_Response">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_4hr_Response" class="form-label mb-3">Facilities Maintenance - 4hr Response</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_4hr_Response" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_4hr_Response" name="facilities_maintenance_4hr_Response">
                                             </div>
                                         </div>
                                     </div>
@@ -740,25 +740,25 @@
                                         <div class="row g-3 my-2">
                                             <div class="col-3">
                                                 <label for="labor_2hr_Response" class="form-label mb-3">Labor - 2hr Response</label>
-                                                <input type="text" class="form-control" id="labor_2hr_Response" name="">
+                                                <input type="number" class="form-control" id="labor_2hr_Response" name="labor_2hr_Response">
                                             </div>
                                             <div class="col-3">
                                                 <label for="security_2hr_Response" class="form-label mb-3">Security - 2hr Response</label>
-                                                <input type="tel" class="form-control" id="security_2hr_Response" name="">
+                                                <input type="number" class="form-control" id="security_2hr_Response" name="security_2hr_Response">
                                             </div>
                                             <div class="col-3">
                                                 <label for="electrical_2hr_Response" class="form-label mb-3">Electrical - 2hr Response</label>
-                                                <input type="text" class="form-control" id="electrical_2hr_Response" name="">
+                                                <input type="number" class="form-control" id="electrical_2hr_Response" name="electrical_2hr_Response">
                                             </div>
                                             <div class="col-3">
                                                 <label for="retail_scale_calibration_2hr_Response" class="form-label mb-3" style="font-size: 15px;">Retail Scale Calibration - 2hr Response</label>
-                                                <input type="tel" class="form-control" id="retail_scale_calibration_2hr_Response" name="">
+                                                <input type="number" class="form-control" id="retail_scale_calibration_2hr_Response" name="retail_scale_calibration_2hr_Response">
                                             </div>
                                         </div>
                                         <div class="row my-2">
                                             <div class="col-3">
                                                 <label for="facilities_maintenance_2hr_Response" class="form-label mb-3">Facilities Maintenance - 2hr Response</label>
-                                                <input type="text" class="form-control" id="facilities_maintenance_2hr_Response" name="">
+                                                <input type="number" class="form-control" id="facilities_maintenance_2hr_Response" name="facilities_maintenance_2hr_Response">
                                             </div>
                                         </div>
                                     </div>
