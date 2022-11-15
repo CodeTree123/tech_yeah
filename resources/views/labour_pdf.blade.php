@@ -299,6 +299,352 @@
             <span style="font-weight:bold;">Facilities Maintenance - 2hr Response</span>:
             {{ $facilities_maintenance_2hr_Response }}.
         </li>
+        
+        <h1>  What Type of Work Are You Looking For?</h1>
+        <hr>
+        <div>
+                <span style="font-weight:bold;">Projects:   
+
+                </span> 
+                <span style="font-weight:bold;">Rollouts:
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">Service:    
+               
+                </span>
+        </div>
+        
+        <h1> Check what experience you have:</h1>
+        <hr>
+        <div> 
+                <span style="font-weight:bold;">New Installs:    
+
+                </span> 
+                <span style="font-weight:bold;">Remodels:
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">Distribution Centers/Warehouse Environments:    
+               
+                </span> 
+                <span style="font-weight:bold;">Clean Room Environments:    
+               
+                </span> 
+                <span style="font-weight:bold;">Sterile Environments:    
+               
+                </span> 
+                <span style="font-weight:bold;">None:    
+               
+                </span> 
+        </div>
+        
+        <h1>Please describe what type of environment you are most comfortable in:</h1>
+        <hr>
+        <div> 
+                <span style="font-weight:bold;"> Large Big Box Retail (e.g. Walmart, Target, etc):    
+
+                </span> 
+                <span style="font-weight:bold;">Office Environments (e.g. Morgan Stanley, UBS, etc):
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">QSR - Quick Serve Restaurant (e.g. Wendy's, Subway, etc):    
+               
+                </span> 
+                <span style="font-weight:bold;">Small Retail (e.g. Claire's, etc):    
+               
+                </span> 
+                <span style="font-weight:bold;">Supermarkets (e.g. ALDI, LIDL, Weiss, etc):    
+               
+                </span>  
+        </div>
+        
+        <h1>Does the following equipment go with your techs to site?</h1>
+        <hr>
+        <div> 
+                <span style="font-weight:bold;">1000 ft of Cat6 Cable:    
+
+                </span> 
+                <span style="font-weight:bold;">6ft Ladder:
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">Butt Set:    
+               
+                </span> 
+                <span style="font-weight:bold;">Copper Tester:    
+               
+                </span> 
+                <span style="font-weight:bold;">Crimper:    
+               
+                </span>  
+                <span style="font-weight:bold;">Fiber Termination Kit:    
+               
+                </span>  
+                <span style="font-weight:bold;">Fiber Anaerobic Term Kit (Puck & Polish):    
+               
+                </span>  
+                <span style="font-weight:bold;">Fiber Corning Term Kit (Unicam):    
+               
+                </span>  
+                <span style="font-weight:bold;">Fiber Tester:    
+               
+                </span>  
+                <span style="font-weight:bold;">Fusion Splicer:    
+               
+                </span>  
+                <span style="font-weight:bold;">Fusion Singlemode Splicer:    
+               
+                </span>  
+                <span style="font-weight:bold;">Fusion Multimode Splicer:    
+               
+                </span>  
+                <span style="font-weight:bold;">Hammer Drill (18” long bits -bits to have on hand - ½”, ¾”, 1”, 1 ¼”):    
+               
+                </span>  
+                <span style="font-weight:bold;">Label Maker:    
+               
+                </span>  
+                <span style="font-weight:bold;">½” or 3/8” white tape with black font:    
+               
+                </span>  
+                <span style="font-weight:bold;">Personal Protective Equipment (PPE):    
+               
+                </span>  
+                <span style="font-weight:bold;">Punch Tool:    
+               
+                </span>  
+                <span style="font-weight:bold;">RJ11:    
+               
+                </span>  
+                <span style="font-weight:bold;">RJ45:    
+               
+                </span>  
+                <span style="font-weight:bold;">Small Hand Tools (e.g. Screwdriver):    
+               
+                </span>  
+                <span style="font-weight:bold;">Toner:    
+               
+                </span>  
+ 
+        </div>
+
+
+        
+        <h1>Do you own any of following types of heavy equipment?</h1>
+        <hr>
+        <div> 
+                <span style="font-weight:bold;">Forklift:    
+
+                </span> 
+                <span style="font-weight:bold;">Boom Lift:
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">Crane:    
+               
+                </span> 
+                <span style="font-weight:bold;">Heavy Equipment Rigging :    
+               
+                </span>
+                <span style="font-weight:bold;">Scissor Lift :    
+               
+                </span>
+                <span style="font-weight:bold;">Heavy  :    
+               
+                </span>
+                <span style="font-weight:bold;">Ladder  :    
+               
+                </span>
+                <span style="font-weight:bold;">Lift Harness (Safety)  :    
+               
+                </span>
+        </div>
+        
+        
+        <h1>CABLING</h1>
+        <hr>
+       <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Structured Cabling</span>:
+            {{ $structured_cabling }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Can you provide verifiable test results for copper?</span>:
+            {{ $test_result_copper }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Copper Testing Equipment Brand</span>:
+            {{ $copper_testing_equipment_brand }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have experience installing rigid conduit?</span>:
+            {{ $rigit_conduit_experience }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you hold any State Low-Voltage Contractor License(s)? </span>:
+            {{ $low_voltage_contractor_licence }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Structured Cabling License Info* </span>:
+            {{ $structured_cabling_license_info }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Fiber Optics </span>:
+            {{ $fiber_optics }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Can you provide verifiable test results? </span>:
+            {{ $fiber_optics_test_result }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Can you terminate and test? </span>:
+            {{ $fiber_optics_terminate_and_test }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Fiber Testing Equipment Brand </span>:
+            {{ $fiber_testing_equipment_brand }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you fusion splice? </span>:
+            {{ $fusion_splice }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you own fusion splice? </span>:
+            {{ $fusion_splicer_brand }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Fusion Splicer Brand </span>:
+            {{ $fiber_optics_license_info }}.
+        </li>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Fiber Optics License Info </span>:
+            {{ $structured_cabling }}.
+        </li> 
+
+
+        <h1>VOICE</h1>
+        <hr>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">VOIP </span>:
+            {{ $voice_voip }}.
+        </li>  
+
+        <h1>SECURITY</h1>
+        <hr>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Can you and your crews read blueprints? </span>:
+            {{ $can_crew_read_blueprint }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">CCTV </span>:
+            {{ $security_cctv }}.
+        </li> 
+           
+        <h1> Please check your experience in the following</h1>
+        <hr>
+        <div>
+                <span style="font-weight:bold;">COAX:   
+
+                </span> 
+                <span style="font-weight:bold;">DVR:
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">IP Cameras:    
+               
+                </span>
+                <span style="font-weight:bold;">Heavy Equipment Rigging:    
+               
+                </span>
+                <span style="font-weight:bold;">NVR:    
+               
+                </span>
+                <span style="font-weight:bold;">Verint Software Platforms:    
+               
+                </span>
+                <span style="font-weight:bold;">March Software Platforms:    
+               
+                </span>
+                <span style="font-weight:bold;">Other VMS Platforms:    
+               
+                </span> 
+        </div>
+           
+        <h1> Please check if you have the following:</h1>
+        <hr>
+        <div>
+                <span style="font-weight:bold;">Spot Monitor:   
+
+                </span> 
+                <span style="font-weight:bold;">Laptop (Capable of Downloading Software):
+            
+                </span>
+                </span>  
+                <span style="font-weight:bold;">Basic network capability with a laptop:    
+               
+                </span> 
+        </div>
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you hold State CCTV License(s)? </span>:
+            {{ $state_cctv_license }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">CCTV License Info* </span>:
+            {{ $cctv_license_info }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Fire Alarm  </span>:
+            {{ $fire_alarm }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Can you install basic metal work?  </span>:
+            {{ $basic_metal_work }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Can you install conduit?  </span>:
+            {{ $conduit_installation }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have basic network capability with a laptop for your fire installs?  </span>:
+            {{ $basic_network_capability_lapto_fire_installs }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">What version of Remote Programing Software (RPS) do you have?  </span>:
+            {{ $rps_version }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Please confirm how you connect to a panel?  </span>:
+            {{ $experience_with_conventional_fire_alarm }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have experience with conventional fire alarm systems?  </span>:
+            {{ $intrusion_burglar_alarms }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Intrusion (IDS) / Burglar Alarms  </span>:
+            {{ $network_capability_with_laptop_intrusion_installs }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have basic network capability with a laptop for your intrusion installs?  </span>:
+            {{ $state_burglar_alarm_license }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you hold State Burglar Alarm/IDS license(s)?  </span>:
+            {{ $intrusion_burglar_alarms_license_info }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Intrusion (IDS) / Burglar Alarms License Info*  </span>:
+            {{ $access_control }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Access Control  </span>:
+            {{ $network_capability_with_laptop_access_control_installs }}.
+        </li>  
+
+        <h1> ELECTRICIAN</h1>
+        <hr>
+        <!-- --------------------------------------------- -->
          
      
 

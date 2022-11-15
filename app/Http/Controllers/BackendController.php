@@ -127,6 +127,64 @@ class BackendController extends Controller
             'electrical_2hr_Response' => $request->electrical_2hr_Response,
             'retail_scale_calibration_2hr_Response' => $request->retail_scale_calibration_2hr_Response,
             'facilities_maintenance_2hr_Response' => $request->facilities_maintenance_2hr_Response,
+
+            // Checkbox Skip
+            // 'projects' => $request->projects,
+            // 'rollouts' => $request->rollouts,
+            // 'service' => $request->service,
+ 
+
+            // ******************
+            'structured_cabling' => $request->structured_cabling,
+            'test_result_copper' => $request->test_result_copper,
+            'copper_testing_equipment_brand' => $request->copper_testing_equipment_brand,
+            'rigit_conduit_experience' => $request->rigit_conduit_experience,
+            'low_voltage_contractor_licence' => $request->low_voltage_contractor_licence,
+            'structured_cabling_license_info' => $request->structured_cabling_license_info,
+            'fiber_optics' => $request->fiber_optics,
+            'fiber_optics_test_result' => $request->fiber_optics_test_result,
+            'fiber_optics_terminate_and_test' => $request->fiber_optics_terminate_and_test,
+            'fiber_testing_equipment_brand' => $request->fiber_testing_equipment_brand,
+            'fusion_splice' => $request->fusion_splice,
+            'fusion_splicer_brand' => $request->fusion_splicer_brand,
+            'fiber_optics_license_info' => $request->fiber_optics_license_info,  
+            // ***************************
+
+            // ******************
+            'voice_voip' => $request->voice_voip,  
+            // ***************************
+
+            // ******************
+            'can_crew_read_blueprint' => $request->can_crew_read_blueprint,  
+            'security_cctv' => $request->security_cctv,  
+            // ***************************
+
+            // security_cctv_checkbox_wrapper checkbox
+
+            // ******************
+            'state_cctv_license' => $request->state_cctv_license,  
+            'cctv_license_info' => $request->cctv_license_info,  
+            'fire_alarm' => $request->fire_alarm,  
+            'basic_metal_work' => $request->basic_metal_work,  
+            'conduit_installation' => $request->conduit_installation,  
+            'basic_network_capability_lapto_fire_installs' => $request->basic_network_capability_lapto_fire_installs,  
+            'rps_version' => $request->rps_version,  
+            'experience_with_conventional_fire_alarm' => $request->experience_with_conventional_fire_alarm,  
+            'intrusion_burglar_alarms' => $request->intrusion_burglar_alarms,  
+            'network_capability_with_laptop_intrusion_installs' => $request->network_capability_with_laptop_intrusion_installs,  
+            'state_burglar_alarm_license' => $request->state_burglar_alarm_license,  
+            'intrusion_burglar_alarms_license_info' => $request->intrusion_burglar_alarms_license_info,  
+            'access_control' => $request->access_control,  
+            'network_capability_with_laptop_access_control_installs' => $request->network_capability_with_laptop_access_control_installs, 
+             
+            // access_control_wrapper checkbox
+
+            'state_access_control_license' => $request->state_access_control_license,  
+            'state_access_control_license_text' => $request->state_access_control_license_text,  
+            // ***************************
+
+
+
         ];
         // dd($request->all(),$data);
 

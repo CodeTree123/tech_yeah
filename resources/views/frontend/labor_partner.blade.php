@@ -339,8 +339,8 @@
                                     <div class="col">
                                         <p class="form-label ">Are you a union shop?</p>
                                         <select class="form-select" aria-label="Default select example" id="is_union_shop" name="is_union_shop">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                         </select>
                                     </div>
                                 </div>
@@ -389,45 +389,45 @@
                                             <p class="form-label">Do your techs go to site with smartphones/tablets? </p>
                                             <p class="form-text  ">e.g. Have the ability to check in/out electronically as well as upload deliverables on site.</p>
                                             <select class="form-select" aria-label="Default select example" id="techs_go_to_site_with_smartphone" name="techs_go_to_site_with_smartphone">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Can you support a 4 HR Response Time?</p>
                                             <p class="form-text ">Within an hour radius</p>
                                             <select class="form-select" aria-label="Default select example" id="four_hour_response" name="four_hour_response">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Can you support a 2 HR Response Time?</p>
                                             <p class="form-text ">Within an hour radius</p>
                                             <select class="form-select" aria-label="Default select example" id="two_hour_response" name="two_hour_response">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Can you support night/holidays/weekend work?</p>
                                             <select class="form-select" aria-label="Default select example" id="night_holiday_weekend_work" name="night_holiday_weekend_work">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Are you willing to travel (routes)?</p>
                                             <select class="form-select" aria-label="Default select example" id="willing_to_travel" name="willing_to_travel">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Do you have capacity to store assets for Techyeah?</p>
                                             <select class="form-select" aria-label="Default select example" id="store_capacity" name="store_capacity">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                                 <option value="interested">Interested, Need More Info</option>
                                             </select>
                                         </div>
@@ -435,8 +435,8 @@
                                     <p class="form-label ">Will you take Flat Rate Projects?</p>
                                     <p class="form-text ">Most of our project and rollout work is a flat rate project rate.</p>
                                     <select class="form-select" aria-label="Default select example" id="takes_flate_rate_project" name="takes_flate_rate_project">
-                                        <option value="yes">Yes</option>
-                                        <option value="no">No</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
                                     </select>
 
 
@@ -483,7 +483,7 @@
                                         <p class="form-label ">Service Call Minimum</p>
                                         <p class="form-text ">Do you charge a minimum dollar or hourly fee for service calls?</p>
                                         <select class="form-select" aria-label="Default select example" id="service_call_payment" name="service_call_payment">
-                                            <option value="no">No</option>
+                                            <option value="No">No</option>
                                             <option value="yes,hourly">Yes,Hourly</option>
                                             <option value="yes,fixed doller amount">Yes,Fixed Doller Amount</option>
                                         </select>
@@ -773,25 +773,26 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col my-4">
-                                        <h5 class="fw-bold">What Type of Work Are You Looking For?</h5>
+                                        <h5 class="fw-bold" >What Type of Work Are You Looking For?</h5>
                                         <p class="form-text">(Check all that apply)</p>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="projects">
+
+                                            <input class="form-check-input" type="checkbox" value="projects" id="projects" name="what_work_looking_for[]">
                                             <label class="form-check-label" for="projects">
                                                 Projects
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="rollouts">
+                                            <input class="form-check-input" type="checkbox" value="rollouts" id="rollouts" name="what_work_looking_for[]">
                                             <label class="form-check-label" for="rollouts">
                                                 Rollouts
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="service">
+                                            <input class="form-check-input" type="checkbox" value="service" id="service"  name="what_work_looking_for[]">
                                             <label class="form-check-label" for="service">
                                                 Service
                                             </label>
@@ -803,42 +804,42 @@
                                         <p class="form-text">(Check all that apply)</p>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="new_installs">
+                                            <input class="form-check-input" type="checkbox" value="" name="new_installs" id="new_installs">
                                             <label class="form-check-label" for="new_installs">
                                                 New Installs
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="remodels">
+                                            <input class="form-check-input" type="checkbox" value="" name="remodels" id="remodels">
                                             <label class="form-check-label" for="remodels">
                                                 Remodels
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id=" distribution_centers_warehouse_environments">
+                                            <input class="form-check-input" type="checkbox" value="" name="distribution_centers_warehouse_environments" id=" distribution_centers_warehouse_environments">
                                             <label class="form-check-label" for=" distribution_centers_warehouse_environments">
                                                 Distribution Centers/Warehouse Environments
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="clean_room_envoirnments">
+                                            <input class="form-check-input" type="checkbox" value="" name="clean_room_envoirnments" id="clean_room_envoirnments">
                                             <label class="form-check-label" for="clean_room_envoirnments">
                                                 Clean Room Environments
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="sterile_enviornments">
+                                            <input class="form-check-input" type="checkbox" value="" name="sterile_enviornments" id="sterile_enviornments">
                                             <label class="form-check-label" for="sterile_enviornments">
                                                 Sterile Environments
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="none">
+                                            <input class="form-check-input" type="checkbox" value="" name="none" id="none">
                                             <label class="form-check-label" for="none">
                                                 None
                                             </label>
@@ -851,35 +852,35 @@
                                         <p class="form-text">(Check all that apply)</p>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="large_big_box_retail">
+                                            <input class="form-check-input" type="checkbox" value="" name="large_big_box_retail" id="large_big_box_retail">
                                             <label class="form-check-label" for="large_big_box_retail">
                                                 Large Big Box Retail (e.g. Walmart, Target, etc)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="office_enviornments">
+                                            <input class="form-check-input" type="checkbox" value="" name="office_enviornments" id="office_enviornments">
                                             <label class="form-check-label" for="office_enviornments">
                                                 Office Environments (e.g. Morgan Stanley, UBS, etc)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="qsr">
+                                            <input class="form-check-input" type="checkbox" value="" name="qsr" id="qsr">
                                             <label class="form-check-label" for="qsr">
                                                 QSR - Quick Serve Restaurant (e.g. Wendy's, Subway, etc)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="small_retail">
+                                            <input class="form-check-input" type="checkbox" value="" name="small_retail" id="small_retail">
                                             <label class="form-check-label" for="small_retail">
                                                 Small Retail (e.g. Claire's, etc)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="supermarkets">
+                                            <input class="form-check-input" type="checkbox" value="" name="supermarkets" id="supermarkets">
                                             <label class="form-check-label" for="supermarkets">
                                                 Supermarkets (e.g. ALDI, LIDL, Weiss, etc)
                                             </label>
@@ -893,91 +894,91 @@
                                     <div class="col my-4">
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="1000_ft_cat6_cable">
+                                            <input class="form-check-input" type="checkbox" value="" name="1000_ft_cat6_cable" id="1000_ft_cat6_cable">
                                             <label class="form-check-label" for="1000_ft_cat6_cable">
                                                 1000 ft of Cat6 Cable
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="6_ft_ladder">
+                                            <input class="form-check-input" type="checkbox" value="" name="6_ft_ladder" id="6_ft_ladder">
                                             <label class="form-check-label" for="6_ft_ladder">
                                                 6ft Ladder
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="butt_set">
+                                            <input class="form-check-input" type="checkbox" value="" name="butt_set" id="butt_set">
                                             <label class="form-check-label" for="butt_set">
                                                 Butt Set
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="copper_tester">
+                                            <input class="form-check-input" type="checkbox" value="" name="copper_tester" id="copper_tester">
                                             <label class="form-check-label" for="copper_tester">
                                                 Copper Tester
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="crimper">
+                                            <input class="form-check-input" type="checkbox" value="" name="crimper" id="crimper">
                                             <label class="form-check-label" for="crimper">
                                                 Crimper
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fiber_termination_kit">
+                                            <input class="form-check-input" type="checkbox" value="" name="fiber_termination_kit" id="fiber_termination_kit">
                                             <label class="form-check-label" for="fiber_termination_kit">
                                                 Fiber Termination Kit
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fiber_anaerobic_term_kit">
+                                            <input class="form-check-input" type="checkbox" value="" name="fiber_anaerobic_term_kit" id="fiber_anaerobic_term_kit">
                                             <label class="form-check-label" for="fiber_anaerobic_term_kit">
                                                 Fiber Anaerobic Term Kit (Puck & Polish)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fiber_corning_term_kit">
+                                            <input class="form-check-input" type="checkbox" value="" name="fiber_corning_term_kit" id="fiber_corning_term_kit">
                                             <label class="form-check-label" for="fiber_corning_term_kit">
                                                 Fiber Corning Term Kit (Unicam)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fiber_tester">
+                                            <input class="form-check-input" type="checkbox" value="" name="fiber_tester" id="fiber_tester">
                                             <label class="form-check-label" for="fiber_tester">
                                                 Fiber Tester
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fusion_splicer">
+                                            <input class="form-check-input" type="checkbox" value="" name="fusion_splicer" id="fusion_splicer">
                                             <label class="form-check-label" for="fusion_splicer">
                                                 Fusion Splicer
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fusion_singlemode_splicer">
+                                            <input class="form-check-input" type="checkbox" value="" name="fusion_singlemode_splicer" id="fusion_singlemode_splicer">
                                             <label class="form-check-label" for="fusion_singlemode_splicer">
                                                 Fusion Singlemode Splicer
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="fusion_multimode_splicer">
+                                            <input class="form-check-input" type="checkbox" value="" name="fusion_multimode_splicer" id="fusion_multimode_splicer">
                                             <label class="form-check-label" for="fusion_multimode_splicer">
                                                 Fusion Multimode Splicer
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="hammer_drill">
+                                            <input class="form-check-input" type="checkbox" value="" name="hammer_drill" id="hammer_drill">
                                             <label class="form-check-label" for="hammer_drill">
                                                 Hammer Drill (18” long bits -bits to have on hand - ½”, ¾”, 1”, 1 ¼”)
                                             </label>
@@ -990,56 +991,56 @@
 
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="label_maker">
+                                            <input class="form-check-input" type="checkbox" value="" name="label_maker" id="label_maker">
                                             <label class="form-check-label" for="label_maker">
                                                 Label Maker
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="white_tape_with_black">
+                                            <input class="form-check-input" type="checkbox" value="" name="white_tape_with_black" id="white_tape_with_black">
                                             <label class="form-check-label" for="white_tape_with_black">
                                                 ½” or 3/8” white tape with black font
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="personal_protective_equipment">
+                                            <input class="form-check-input" type="checkbox" value="" name="personal_protective_equipment" id="personal_protective_equipment">
                                             <label class="form-check-label" for="personal_protective_equipment">
                                                 Personal Protective Equipment (PPE)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="punch_tool">
+                                            <input class="form-check-input" type="checkbox" value="" name="punch_tool" id="punch_tool">
                                             <label class="form-check-label" for="punch_tool">
                                                 Punch Tool
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="RJ11">
+                                            <input class="form-check-input" type="checkbox" value="" name="RJ11" id="RJ11">
                                             <label class="form-check-label" for="RJ11">
                                                 RJ11
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="RJ45">
+                                            <input class="form-check-input" type="checkbox" value="" name="RJ45" id="RJ45">
                                             <label class="form-check-label" for="RJ45">
                                                 RJ45
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="small_hand_tools">
+                                            <input class="form-check-input" type="checkbox" value="" name="small_hand_tools" id="small_hand_tools">
                                             <label class="form-check-label" for="small_hand_tools">
                                                 Small Hand Tools (e.g. Screwdriver)
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="toner">
+                                            <input class="form-check-input" type="checkbox" value="" name="toner" id="toner">
                                             <label class="form-check-label" for="toner">
                                                 Toner
                                             </label>
@@ -1053,35 +1054,35 @@
 
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="forklift">
+                                            <input class="form-check-input" type="checkbox" value="" name="forklift" id="forklift">
                                             <label class="form-check-label" for="forklift">
                                                 Forklift
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="boom_lift">
+                                            <input class="form-check-input" type="checkbox" value="" name="boom_lift" id="boom_lift">
                                             <label class="form-check-label" for="boom_lift">
                                                 Boom Lift
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="crane">
+                                            <input class="form-check-input" type="checkbox" value="" name="crane" id="crane">
                                             <label class="form-check-label" for="crane">
                                                 Crane
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="heavy_equipment_rigging">
+                                            <input class="form-check-input" type="checkbox" value="" name="heavy_equipment_rigging" id="heavy_equipment_rigging">
                                             <label class="form-check-label" for="heavy_equipment_rigging">
                                                 Heavy Equipment Rigging
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id=" scissor_lift">
+                                            <input class="form-check-input" type="checkbox" value="" name="scissor_lift" id=" scissor_lift">
                                             <label class="form-check-label" for=" scissor_lift">
                                                 Scissor Lift
                                             </label>
@@ -1090,14 +1091,14 @@
 
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id=" ladder">
+                                            <input class="form-check-input" type="checkbox" value="" name="ladder" id=" ladder">
                                             <label class="form-check-label" for=" ladder">
                                                 Ladder
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id=" lift_harness">
+                                            <input class="form-check-input" type="checkbox" value="" name="lift_harness" id=" lift_harness">
                                             <label class="form-check-label" for=" lift_harness">
                                                 Lift Harness (Safety)
                                             </label>
@@ -1113,36 +1114,36 @@
                                 <div class="my-4 row">
                                     <div class="col-6">
                                         <p class="form-label ">Structured Cabling</p>
-                                        <select class="form-select" aria-label="Default select example" id="structured_cabling" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                        <select class="form-select" aria-label="Default select example" id="structured_cabling" name="structured_cabling">
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                         </select>
                                         <div class="structured_cabling_wrapper  ">
                                             <div class="my-4">
                                                 <p class="form-label ">Can you provide verifiable test results for copper?</p>
-                                                <select class="form-select" aria-label="Default select example" id="test_result_copper" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="test_result_copper" name="test_result_copper">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
 
                                             <div class="copper_testing_equipment_brand_wrapper my-3">
                                                 <label for="copper_testing_equipment_brand" class="form-label ">Copper Testing Equipment Brand</label>
-                                                <input type="text" class="form-control " id="copper_testing_equipment_brand" name="" autocomplete="off">
+                                                <input type="text" class="form-control " id="copper_testing_equipment_brand" name="copper_testing_equipment_brand" autocomplete="off">
                                             </div>
 
                                             <div class="my-4">
                                                 <p class="form-label ">Do you have experience installing rigid conduit?</p>
-                                                <select class="form-select" aria-label="Default select example" id="rigit_conduit_experience" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="rigit_conduit_experience" name="rigit_conduit_experience">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                             <div class="my-4">
                                                 <p class="form-label ">Do you hold any State Low-Voltage Contractor License(s)?</p>
-                                                <select class="form-select" aria-label="Default select example" id="low_voltage_contractor_licence" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="low_voltage_contractor_licence" name="low_voltage_contractor_licence">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                                 <div class="structured_cabling_license_info_wrapper">
                                                     <p class="form-label ">Structured Cabling License Info*</p>
@@ -1157,9 +1158,9 @@
                                 <div class="my-4 row">
                                     <div class="col-6">
                                         <p class="form-label "> Fiber Optics</p>
-                                        <select class="form-select" aria-label="Default select example" id="fiber_optics" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                        <select class="form-select" aria-label="Default select example" id="fiber_optics" name="fiber_optics">
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                         </select>
 
                                     </div>
@@ -1167,9 +1168,9 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Can you provide verifiable test results?</p>
-                                                <select class="form-select" aria-label="Default select example" id="fiber_optics_test_result" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="fiber_optics_test_result" name="fiber_optics_test_result">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1177,19 +1178,19 @@
 
                                             <div class="my-4">
                                                 <p class="form-label ">Can you terminate and test?</p>
-                                                <select class="form-select" aria-label="Default select example" id="fiber_optics_terminate_and_test" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="fiber_optics_terminate_and_test" name="fiber_optics_terminate_and_test">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                             <div class="fiber_optics_terminate_and_test_wrapper">
                                                 <div class="mb-3">
                                                     <label for="fiber_testing_equipment_brand" class="form-label">Fiber Testing Equipment Brand</label>
-                                                    <input type="text" class="form-control" id="fiber_testing_equipment_brand" name="" autocomplete="off">
+                                                    <input type="text" class="form-control" id="fiber_testing_equipment_brand" name="fiber_testing_equipment_brand" autocomplete="off">
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="fiber_termination_kit_equipment_brand" class="form-label">Fiber Termination Kit Equipment Brand</label>
-                                                    <input type="text" class="form-control" id="fiber_termination_kit_equipment_brand" name="" autocomplete="off">
+                                                    <input type="text" class="form-control" id="fiber_termination_kit_equipment_brand" name="fiber_termination_kit_equipment_brand" autocomplete="off">
                                                 </div>
                                             </div>
 
@@ -1199,23 +1200,23 @@
 
                                             <div class="my-4">
                                                 <p class="form-label ">Do you fusion splice?</p>
-                                                <select class="form-select" aria-label="Default select example" id="fusion_splice" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="fusion_splice" name="fusion_splice">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                             <div class="fusion_splice_wrapper">
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you own fusion splice?</p>
-                                                    <select class="form-select" aria-label="Default select example" id="own_a_fusion_splice" name="">
-                                                        <option value="no">No</option>
-                                                        <option value="yes">Yes</option>
+                                                    <select class="form-select" aria-label="Default select example" id="own_a_fusion_splice" name="own_a_fusion_splice">
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
                                                     </select>
                                                 </div>
                                                 <div class="fusion_splicer_brand_wrapper">
                                                     <div class="mb-3">
                                                         <label for="fusion_splicer_brand" class="form-label">Fusion Splicer Brand</label>
-                                                        <input type="text" class="form-control" id="fusion_splicer_brand" name="" autocomplete="off">
+                                                        <input type="text" class="form-control" id="fusion_splicer_brand" name="fusion_splicer_brand" autocomplete="off">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1228,7 +1229,7 @@
                                                     Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.
 
                                                 </p>
-                                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" name="fiber_optics_license_info" style="height: 200px"></textarea>
                                             </div>
                                         </div>
 
@@ -1238,9 +1239,9 @@
                                         <hr>
                                         <div class="my-4">
                                             <p class="form-label ">VOIP</p>
-                                            <select class="form-select" aria-label="Default select example" id="voice_voip" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                            <select class="form-select" aria-label="Default select example" id="voice_voip" name="voice_voip">
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1253,9 +1254,9 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Can you and your crews read blueprints?</p>
-                                                <select class="form-select" aria-label="Default select example" id="can_crew_read_blueprint" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="can_crew_read_blueprint" name="can_crew_read_blueprint">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1264,9 +1265,9 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">CCTV</p>
-                                                <select class="form-select" aria-label="Default select example" id="security_cctv" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="security_cctv" name="security_cctv">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1351,9 +1352,9 @@
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Do you hold State CCTV License(s)?</p>
-                                            <select class="form-select" aria-label="Default select example" id="state_cctv_license" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                            <select class="form-select" aria-label="Default select example" id="state_cctv_license" name="state_cctv_license">
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                                 <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
                                             </select>
                                         </div>
@@ -1362,7 +1363,7 @@
                                                 <p class="form-label mb-0">CCTV License Info*</p>
                                                 <p class="form-text mb-0">Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
                                                 <div class="form-floating">
-                                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px" autocomplete="off"></textarea>
+                                                    <textarea class="form-control" placeholder="Leave a comment here" name="cctv_license_info" id="floatingTextarea3" style="height: 100px" autocomplete="off"></textarea>
                                                     <label for="floatingTextarea3"></label>
                                                 </div>
                                             </div>
@@ -1372,9 +1373,9 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Fire Alarm</p>
-                                                <select class="form-select" aria-label="Default select example" id="fire_alarm" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="fire_alarm" name="fire_alarm">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1383,32 +1384,32 @@
                                     <div class="fire_alarm_wrapper">
                                         <div class="my-4">
                                             <p class="form-label ">Can you install basic metal work?</p>
-                                            <select class="form-select" aria-label="Default select example" id="basic_metal_work" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                            <select class="form-select" aria-label="Default select example" id="basic_metal_work" name="basic_metal_work">
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Can you install conduit?</p>
-                                            <select class="form-select" aria-label="Default select example" id="conduit_installation" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                            <select class="form-select" aria-label="Default select example" id="conduit_installation" name="conduit_installation">
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Do you have basic network capability with a laptop for your fire installs?</p>
-                                            <select class="form-select" aria-label="Default select example" id="basic_network_capability_lapto_fire_installs" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                            <select class="form-select" aria-label="Default select example" id="basic_network_capability_lapto_fire_installs" name="basic_network_capability_lapto_fire_installs">
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                         <div class="my-4">
                                             <label for="companyName" class="form-label">What version of Remote Programing Software (RPS) do you have?</label>
-                                            <input type="text" class="form-control" id="rps_version" name="" autocomplete="off">
+                                            <input type="text" class="form-control" id="rps_version" name="rps_version" autocomplete="off">
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Please confirm how you connect to a panel?</p>
-                                            <select class="form-select" aria-label="Default select example" id="basic_network_capability_lapto_fire_installs" name="">
+                                            <select class="form-select" aria-label="Default select example" id="basic_network_capability_lapto_fire_installs" name="basic_network_capability_lapto_fire_installs">
                                                 <option value="Security Dongle with Laptop">Security Dongle with Laptop</option>
                                                 <option value="Remote Login">Remote Login</option>
                                             </select>
@@ -1418,9 +1419,9 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Do you have experience with conventional fire alarm systems?</p>
-                                                <select class="form-select" aria-label="Default select example" id="experience_with_conventional_fire_alarm" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="experience_with_conventional_fire_alarm" name="experience_with_conventional_fire_alarm">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1429,25 +1430,25 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Intrusion (IDS) / Burglar Alarms</p>
-                                                <select class="form-select" aria-label="Default select example" id="intrusion_burglar_alarms" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="intrusion_burglar_alarms" name="intrusion_burglar_alarms">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="my-4">
                                         <p class="form-label ">Do you have basic network capability with a laptop for your intrusion installs?</p>
-                                        <select class="form-select" aria-label="Default select example" id="network_capability_with_laptop_intrusion_installs" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                        <select class="form-select" aria-label="Default select example" id="network_capability_with_laptop_intrusion_installs" name="network_capability_with_laptop_intrusion_installs">
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                         </select>
                                     </div>
                                     <div class="my-4">
                                         <p class="form-label ">Do you hold State Burglar Alarm/IDS license(s)?</p>
-                                        <select class="form-select" aria-label="Default select example" id="state_burglar_alarm_license" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                        <select class="form-select" aria-label="Default select example" id="state_burglar_alarm_license" name="state_burglar_alarm_license">
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
                                         </select>
                                     </div>
@@ -1455,7 +1456,7 @@
                                         <p class="form-label mb-0">Intrusion (IDS) / Burglar Alarms License Info*</p>
                                         <p class="form-text mb-0">Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px" autocomplete="off"></textarea>
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" name="intrusion_burglar_alarms_license_info" style="height: 100px" autocomplete="off"></textarea>
                                             <label for="floatingTextarea3"></label>
                                         </div>
                                     </div>
@@ -1463,9 +1464,9 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Access Control</p>
-                                                <select class="form-select" aria-label="Default select example" id="access_control" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                <select class="form-select" aria-label="Default select example" id="access_control" name="access_control">
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1473,9 +1474,9 @@
                                     <div class="access_control_wrapper">
                                         <div class="my-4">
                                             <p class="form-label ">Do you have basic network capability with a laptop for your access control installs?</p>
-                                            <select class="form-select" aria-label="Default select example" id="network_capability_with_laptop_access_control_installs" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                            <select class="form-select" aria-label="Default select example" id="network_capability_with_laptop_access_control_installs" name="network_capability_with_laptop_access_control_installs">
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                         <div class="row my-3">
@@ -1508,9 +1509,9 @@
 
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you hold State Access Control license(s)?</p>
-                                                    <select class="form-select" aria-label="Default select example" id="state_access_control_license" name="">
-                                                        <option value="no">No</option>
-                                                        <option value="yes">Yes</option>
+                                                    <select class="form-select" aria-label="Default select example" id="state_access_control_license" name="state_access_control_license">
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
                                                         <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
                                                     </select>
                                                 </div>
@@ -1518,7 +1519,7 @@
                                                     <p class="form-label mb-0">Intrusion (IDS) / Burglar Alarms License Info*</p>
                                                     <p class="form-text mb-0">Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
                                                     <div class="form-floating">
-                                                        <textarea class="form-control" placeholder="Leave a comment here" id="state_access_control_license_text" style="height: 100px" autocomplete="off"></textarea>
+                                                        <textarea class="form-control" placeholder="Leave a comment here" id="state_access_control_license_text" name="state_access_control_license_text" style="height: 100px" autocomplete="off"></textarea>
                                                         <label for="floatingTextarea3"></label>
                                                     </div>
                                                 </div>
@@ -1537,8 +1538,8 @@
                                             <div class="my-4">
                                                 <p class="form-label ">Licensed Electrician</p>
                                                 <select class="form-select" aria-label="Default select example" id="licensed_electrician" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1549,22 +1550,22 @@
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you have experience bending conduit?</p>
                                                     <select class="form-select" aria-label="Default select example" id="bending_conduit_experience" name="">
-                                                        <option value="no">No</option>
-                                                        <option value="yes">Yes</option>
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
                                                     </select>
                                                 </div>
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you have experience installing stainless steel conduit?</p>
                                                     <select class="form-select" aria-label="Default select example" id="sainless_steel_conduit_experience" name="">
-                                                        <option value="no">No</option>
-                                                        <option value="yes">Yes</option>
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
                                                     </select>
                                                 </div>
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you hold a State Electrical license(s)?</p>
                                                     <select class="form-select" aria-label="Default select example" id="state_electrical_license" name="">
-                                                        <option value="no">No</option>
-                                                        <option value="yes">Yes</option>
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
                                                         <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
                                                     </select>
                                                 </div>
@@ -1586,8 +1587,8 @@
                                             <div class="my-4">
                                                 <p class="form-label ">Do you perform wireless installs?</p>
                                                 <select class="form-select" aria-label="Default select example" id="wireless_installls" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1598,8 +1599,8 @@
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you perform onsite Wireless Site Surveys?</p>
                                                     <select class="form-select" aria-label="Default select example" id="onsite_wireless_site_surveys" name="">
-                                                        <option value="no">No</option>
-                                                        <option value="yes">Yes</option>
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -1682,8 +1683,8 @@
                                     <div class="my-4">
                                         <p class="form-label ">Do you perform network hardware installs?</p>
                                         <select class="form-select" aria-label="Default select example" id="network_hardware_installs" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
                                         </select>
                                     </div>
@@ -1747,8 +1748,8 @@
                                         <div class="my-4">
                                             <p class="form-label ">Do you have experience installing MDF Racks?</p>
                                             <select class="form-select" aria-label="Default select example" id="experience_installing_mdf_racks" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1871,8 +1872,8 @@
                                             <div class="my-4">
                                                 <p class="form-label ">Do you hold a General Contractor License?</p>
                                                 <select class="form-select" aria-label="Default select example" id="general_contractor_license" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                                 <div class="general_contractor_license_wrapper">
                                                     <p class="form-label ">Structured Cabling License Info*</p>
@@ -1885,8 +1886,8 @@
                                             <div class="my-4">
                                                 <p class="form-label ">Do you hold a Mechanical Contractor License?</p>
                                                 <select class="form-select" aria-label="Default select example" id="mechanical_contractor_license" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                                 <div class="mechanical_contractor_license_wrapper">
                                                     <p class="form-label ">Structured Cabling License Info*</p>
@@ -1986,8 +1987,8 @@
                                                     <div class="col-6">
                                                         <p class="form-label ">Are you able to pull your own Digital Signage Permits?</p>
                                                         <select class="form-select" aria-label="Default select example" id="pull_digital_signage_permits" name="">
-                                                            <option value="no">No</option>
-                                                            <option value="yes">Yes</option>
+                                                            <option value="No">No</option>
+                                                            <option value="Yes">Yes</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -1996,8 +1997,8 @@
                                                     <div class="col-6">
                                                         <p class="form-label ">Do you have a license for signage installs?</p>
                                                         <select class="form-select" aria-label="Default select example" id="license_for_signage_installs" name="">
-                                                            <option value="no">No</option>
-                                                            <option value="yes">Yes</option>
+                                                            <option value="No">No</option>
+                                                            <option value="Yes">Yes</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -2021,8 +2022,8 @@
                                             <div class="col-6">
                                                 <p class="form-label ">Do you offer IT services?</p>
                                                 <select class="form-select" aria-label="Default select example" id="offering_it_services" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -2109,8 +2110,8 @@
                                         <div class="col-6">
                                             <p class="form-label ">Are you certified to offer Retail Scale Calibration services?</p>
                                             <select class="form-select" aria-label="Default select example" id="retail_scale_calibration_service" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                                 <option value="I am interested in information on how to get certified">I am interested in information on how to get certified</option>
                                             </select>
                                         </div>
@@ -2130,8 +2131,8 @@
                                         <div class="col-6">
                                             <p class="form-label ">Do you install Sound Masking System?</p>
                                             <select class="form-select" aria-label="Default select example" id="sound_masking_system" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2140,8 +2141,8 @@
                                             <div class="col-6">
                                                 <p class="form-label ">Do you provide engineering services for Sound Masking?</p>
                                                 <select class="form-select" aria-label="Default select example" id="engineering_service_for_sound_masking_system" name="">
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <option value="Yes">Yes</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -2160,8 +2161,8 @@
                                         <div class="col-6">
                                             <p class="form-label ">Do you provide CAD services </p>
                                             <select class="form-select" aria-label="Default select example" id="cad_service" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2460,8 +2461,8 @@
                                     <div class="col-12">
                                         <p class="form-label ">Background Checks</p>
                                         <select class="form-select" aria-label="Default select example" id="background_check" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
 
@@ -2474,8 +2475,8 @@
                                     <div class="col-12">
                                         <p class="form-label ">Drug Tests </p>
                                         <select class="form-select" aria-label="Default select example" id="drug_test" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
 
@@ -2488,8 +2489,8 @@
                                     <div class="col-12">
                                         <p class="form-label ">HIPAA Certified </p>
                                         <select class="form-select" aria-label="Default select example" id="hipaa_certified" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
 
@@ -2504,112 +2505,112 @@
                                     <div class="col-12 my-2">
                                         <p class="form-label ">A+ Certified </p>
                                         <select class="form-select" aria-label="Default select example" id="a_plus_certified" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">ADT </p>
                                         <select class="form-select" aria-label="Default select example" id="adt" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Avaya </p>
                                         <select class="form-select" aria-label="Default select example" id="avaya" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Axis </p>
                                         <select class="form-select" aria-label="Default select example" id="axis" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Belden </p>
                                         <select class="form-select" aria-label="Default select example" id="belden" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Copper 1 </p>
                                         <select class="form-select" aria-label="Default select example" id="bicsi_copper_one" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Copper 2 </p>
                                         <select class="form-select" aria-label="Default select example" id="bicsi_copper_two" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Installer </p>
                                         <select class="form-select" aria-label="Default select example" id="bicsi_installer" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI RCDD </p>
                                         <select class="form-select" aria-label="Default select example" id="bicsi_rcdd" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Technician </p>
                                         <select class="form-select" aria-label="Default select example" id="bicsi_technician" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - CCTV </p>
                                         <select class="form-select" aria-label="Default select example" id="bosch_cctv" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - Fire </p>
                                         <select class="form-select" aria-label="Default select example" id="bosch_fire" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - Intrusion </p>
                                         <select class="form-select" aria-label="Default select example" id="bosch_intrusion" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - IP Paging </p>
                                         <select class="form-select" aria-label="Default select example" id="bosch_ip_paging" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
@@ -2682,48 +2683,48 @@
                                     <div class="col-6 my-2">
                                         <p class="form-label ">CommScope Systimax</p>
                                         <select class="form-select" aria-label="Default select example" id="commScope_systimax" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">CommScope Uniprise</p>
                                         <select class="form-select" aria-label="Default select example" id="commScope_Uniprise" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Corning </p>
                                         <select class="form-select" aria-label="Default select example" id="corning" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">DMP </p>
                                         <select class="form-select" aria-label="Default select example" id="DMP" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">DSX </p>
                                         <select class="form-select" aria-label="Default select example" id="DSX" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">ESA </p>
                                         <select class="form-select" aria-label="Default select example" id="ESA" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
@@ -2737,8 +2738,8 @@
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Fire-Lite </p>
                                         <select class="form-select" aria-label="Default select example" id="fire_lite" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
@@ -2763,8 +2764,8 @@
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Hanwha </p>
                                         <select class="form-select" aria-label="Default select example" id="hanwha" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
@@ -2801,72 +2802,72 @@
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Leviton </p>
                                         <select class="form-select" aria-label="Default select example" id="Leviton" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">March Networks </p>
                                         <select class="form-select" aria-label="Default select example" id="March_Networks" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">NICET Fire Protection</p>
                                         <select class="form-select" aria-label="Default select example" id="NICET_fire_protection" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">NICET Security Systems</p>
                                         <select class="form-select" aria-label="Default select example" id="NICET_Security_Systems" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Nortel</p>
                                         <select class="form-select" aria-label="Default select example" id="Nortel" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Ortronics</p>
                                         <select class="form-select" aria-label="Default select example" id="Ortronics" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Panduit</p>
                                         <select class="form-select" aria-label="Default select example" id="Panduit" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">SilentKnight</p>
                                         <select class="form-select" aria-label="Default select example" id="SilentKnight" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Verint</p>
                                         <select class="form-select" aria-label="Default select example" id="Verint" name="">
-                                            <option value="no">No</option>
-                                            <option value="yes">Yes</option>
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
@@ -2917,8 +2918,8 @@
                                         <div class="col-6 my-2">
                                             <p class="form-label ">OSHA 10</p>
                                             <select class="form-select" aria-label="Default select example" id="osha_10" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                                 <option value="willing_to_obtain">Willing to Obtain</option>
                                             </select>
                                         </div>
@@ -2926,8 +2927,8 @@
                                         <div class="col-6 my-2">
                                             <p class="form-label ">OSHA 30</p>
                                             <select class="form-select" aria-label="Default select example" id="osha_30" name="">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
+                                                <option value="No">No</option>
+                                                <option value="Yes">Yes</option>
                                                 <option value="willing_to_obtain">Willing to Obtain</option>
                                             </select>
                                         </div>
@@ -3371,11 +3372,11 @@
 
 
     is_union_shop.addEventListener('change', function() {
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             union_affiliation_wrapper.style.display = "block";
 
         }
-        if (this.value === "no") {
+        if (this.value === "No") {
             union_affiliation_wrapper.style.display = "none";
         }
     });
@@ -3389,7 +3390,7 @@
     });
 
     service_call_payment.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             service_call_rate_wrapper.style.display = "none";
         }
         if (this.value === "yes,hourly") {
@@ -3403,10 +3404,10 @@
     });
 
     structured_cabling.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             structured_cabling_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             structured_cabling_wrapper.style.display = "block";
 
         }
@@ -3414,110 +3415,110 @@
     });
 
     test_result_copper.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             copper_testing_equipment_brand_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             copper_testing_equipment_brand_wrapper.style.display = "block";
 
         }
 
     });
     fiber_optics.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             fiber_optics_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             fiber_optics_wrapper.style.display = "block";
 
         }
 
     });
     fiber_optics_terminate_and_test.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             fiber_optics_terminate_and_test_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             fiber_optics_terminate_and_test_wrapper.style.display = "block";
 
         }
 
     });
     fusion_splice.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             fusion_splice_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             fusion_splice_wrapper.style.display = "block";
 
         }
 
     });
     security_cctv.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             security_cctv_checkbox_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             security_cctv_checkbox_wrapper.style.display = "block";
 
         }
 
     });
     state_cctv_license.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             state_cctv_license_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             state_cctv_license_wrapper.style.display = "block";
 
         }
 
     });
     state_burglar_alarm_license.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             state_burglar_alarm_license_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             state_burglar_alarm_license_wrapper.style.display = "block";
 
         }
 
     });
     fire_alarm.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             fire_alarm_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             fire_alarm_wrapper.style.display = "block";
 
         }
 
     });
     access_control.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             access_control_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             access_control_wrapper.style.display = "block";
 
         }
 
     });
     state_access_control_license.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             state_access_control_license_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             state_access_control_license_wrapper.style.display = "block";
 
         }
 
     });
     licensed_electrician.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             licensed_electrician_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             licensed_electrician_wrapper.style.display = "block";
 
         }
@@ -3526,20 +3527,20 @@
 
 
     state_electrical_license.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             state_electrical_license_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             state_electrical_license_wrapper.style.display = "block";
 
         }
 
     });
     wireless_installls.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             wireless_installls_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             wireless_installls_wrapper.style.display = "block";
         }
 
@@ -3583,40 +3584,40 @@
 
 
     general_contractor_license.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             general_contractor_license_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             general_contractor_license_wrapper.style.display = "block";
 
         }
 
     });
     license_for_signage_installs.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             license_for_signage_installs_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             license_for_signage_installs_wrapper.style.display = "block";
 
         }
 
     });
     mechanical_contractor_license.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             mechanical_contractor_license_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             mechanical_contractor_license_wrapper.style.display = "block";
 
         }
 
     });
     network_hardware_installs.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             network_hardware_installs_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             network_hardware_installs_wrapper.style.display = "block";
 
         }
@@ -3624,40 +3625,40 @@
     });
 
     retail_scale_calibration_service.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             retail_scale_calibration_service_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             retail_scale_calibration_service_wrapper.style.display = "block";
 
         }
 
     });
     sound_masking_system.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             sound_masking_system_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             sound_masking_system_wrapper.style.display = "block";
 
         }
 
     });
     cad_service.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             cad_service_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             cad_service_wrapper.style.display = "block";
 
         }
 
     });
     own_a_fusion_splice.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             fusion_splicer_brand_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             fusion_splicer_brand_wrapper.style.display = "block";
 
         }
@@ -3665,40 +3666,40 @@
     });
 
     low_voltage_contractor_licence.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             structured_cabling_license_info_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             structured_cabling_license_info_wrapper.style.display = "block";
 
         }
 
     });
     background_check.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             background_check_last_check_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             background_check_last_check_wrapper.style.display = "block";
 
         }
 
     });
     drug_test.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             drug_test_last_check_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             drug_test_last_check_wrapper.style.display = "block";
 
         }
 
     });
     hipaa_certified.addEventListener('change', function() {
-        if (this.value === "no") {
+        if (this.value === "No") {
             hipaa_certified_last_check_wrapper.style.display = "none";
         }
-        if (this.value === "yes") {
+        if (this.value === "Yes") {
             hipaa_certified_last_check_wrapper.style.display = "block";
 
         }
