@@ -644,7 +644,405 @@
 
         <h1> ELECTRICIAN</h1>
         <hr>
-        <!-- --------------------------------------------- -->
+        <!-- --------------------------------------------- --> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Licensed Electrician</span>:
+            {{ $licensed_electrician }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have experience bending conduit?</span>:
+            {{ $bending_conduit_experience }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have experience installing stainless steel conduit?</span>:
+            {{ $sainless_steel_conduit_experience }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you hold a State Electrical license(s)?</span>:
+            {{ $state_electrical_license }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Electrician License Info*</span>:
+            {{ $structured_cabling_license_info }}.
+        </li>  
+
+        <h1> WIRELESS</h1>
+        <hr>
+        <!-- --------------------------------------------- --> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you perform wireless installs?</span>:
+            {{ $wireless_installls }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you perform onsite Wireless Site Surveys?</span>:
+            {{ $onsite_wireless_site_surveys }}.
+        </li>  
+
+        
+        <h4>Do you hold software licenses for::</h4> 
+        <div>
+                <span style="font-weight:bold;">AirMagnet:   
+
+                </span> 
+                <span style="font-weight:bold;">Aironet:  
+            
+                </span> 
+                <span style="font-weight:bold;">Ekahau: 
+               
+                </span> 
+                <span style="font-weight:bold;">Meraki: 
+               
+                </span> 
+                <span style="font-weight:bold;">Other: 
+               
+                </span> 
+        </div>
+
+        <h3>Do you own one of the following?</h3> 
+        <div>
+                <span style="font-weight:bold;">Wilson Pro Meter :   
+
+                </span> 
+                <span style="font-weight:bold;">Surecall Meter:  
+            
+                </span>
+               
+        </div>
+
+        <h1> NETWORK HARDWARE</h1>
+        <hr>
+        <!-- --------------------------------------------- --> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you perform network hardware installs?</span>:
+            {{ $network_hardware_installs }}.
+        </li>  
+
+        
+        <h4>Please check what experience you have:</h4> 
+        <div>
+                <span style="font-weight:bold;">Switch Add:   
+
+                </span> 
+                <span style="font-weight:bold;">Switch Upgrade:  
+            
+                </span> 
+                <span style="font-weight:bold;">Switch Refresh: 
+               
+                </span> 
+                <span style="font-weight:bold;">MAC (Move Add Change): 
+               
+                </span>  
+        </div>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you have experience installing MDF Racks?</span>:
+            {{ $experience_installing_mdf_racks }}.
+        </li>  
+
+        <h1> AUTOMATION, ROBOTICS AND FACILITIES MAINTENANCE</h1>
+        <hr>
+        <!-- --------------------------------------------- -->   
+        
+        <h4>Do you have experience in:</h4> 
+        <div>
+                <span style="font-weight:bold;">Automation:   
+
+                </span> 
+                <span style="font-weight:bold;"> Robotics:  
+            
+                </span> 
+                <span style="font-weight:bold;"> Facilities Maintenace: 
+               
+                </span>  
+        </div>
+        
+        <h4>Further explain your experience and skill set in Automation and Robotics:</h4> 
+        <div>
+                <span style="font-weight:bold;">Conveyors (assembly of drive components such as Drive, Servo, Motor, Belt, or Chain):   
+
+                </span> 
+                <span style="font-weight:bold;"> Electrical (Power Units, Cabling, Bus ways, etc):  
+            
+                </span> 
+                <span style="font-weight:bold;"> Facilities  : 
+               
+                </span>  
+                <span style="font-weight:bold;"> General Construction  : 
+               
+                </span>  
+                <span style="font-weight:bold;"> Maintenance  : 
+               
+                </span>  
+                <span style="font-weight:bold;"> Material Handling  : 
+               
+                </span>  
+                <span style="font-weight:bold;"> Mechanical Construction (general mechanical labor - putting parts together with bolts, rivets, etc., anchoring)  : 
+               
+                </span>  
+                <span style="font-weight:bold;"> Software Turn up & Connectivity  : 
+               
+                </span>  
+                <span style="font-weight:bold;"> Weights and Measures/Scale Calibration  : 
+               
+                </span>   
+        </div>
+        
+        <h4>Do you have experience with installing:</h4> 
+        <div>
+                <span style="font-weight:bold;">Automated Storage and Retrieval Systems (ASRS) :
+
+                </span> 
+                <span style="font-weight:bold;">Robotic Storage and Retrieval Systems (RSR):  
+            
+                </span>  
+        </div>
+        
+        <h4>Do you have experience with servicing:</h4> 
+        <div>
+                <span style="font-weight:bold;">Automated Storage and Retrieval Systems (ASRS) :
+
+                </span> 
+                <span style="font-weight:bold;">Robotic Storage and Retrieval Systems (RSR):  
+            
+                </span>  
+        </div>
+        
+        <h4>Can you do the following in supporting Automation, Robotics and Facilities Maintenance?</h4> 
+        <div>
+                <span style="font-weight:bold;">ASi Modules:
+
+                </span> 
+                <span style="font-weight:bold;">Belt and Chain Drives:  
+            
+                </span>  
+                <span style="font-weight:bold;">Belt Tensioning  
+            
+                </span>  
+                <span style="font-weight:bold;">HVAC  
+            
+                </span>  
+                <span style="font-weight:bold;">Instrumentation  
+            
+                </span>  
+                <span style="font-weight:bold;">Magnetic Field - Gauss  
+            
+                </span>  
+                <span style="font-weight:bold;">Noise Level - Decibel  
+            
+                </span>  
+                <span style="font-weight:bold;">Pneumatic  
+            
+                </span>  
+                <span style="font-weight:bold;">Racks  
+            
+                </span>  
+                <span style="font-weight:bold;">RFID  
+            
+                </span>  
+                <span style="font-weight:bold;">Servo Drives  
+            
+                </span>  
+                <span style="font-weight:bold;">Torque  
+            
+                </span>  
+                <span style="font-weight:bold;">Variable Frequency Drives (VFD)  
+            
+                </span>  
+                <span style="font-weight:bold;">Weights and Measures/Scale Calibration  
+            
+                </span>  
+                <span style="font-weight:bold;">Wire Crafter  
+            
+                </span>    
+        </div>
+        
+        <h4>Type of HVAC Work:</h4> 
+        <div>
+                <span style="font-weight:bold;">Control Repair/Replacement Experience:   
+
+                </span> 
+                <span style="font-weight:bold;">Troubleshooting and Repair of RTUs and Associated Controls:  
+            
+                </span>  
+        </div>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you hold a General Contractor License?</span>:
+            {{ $general_contractor_license }}.
+        </li>  
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">  Structured Cabling License Info*</span>:
+            {{ $general_contractor_license_info }}.
+        </li>  
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you hold a Mechanical Contractor License?</span>:
+            {{ $mechanical_contractor_license }}.
+        </li>  
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Structured Cabling License Info*</span>:
+            {{ $mechanical_contractor_license_info }}.
+        </li>  
+
+        <h1>DIGITAL SIGNAGE:</h1> 
+
+        <h4>Type of HVAC Work:</h4> 
+        <div>
+                <span style="font-weight:bold;">Indoor Digital Signage Installs (e.g. Kiosks, Single Boards, Menu Boards, KDS, Media Players, etc) 
+
+                </span> 
+                <span style="font-weight:bold;">Outdoor Signage Installs (e.g. Pedestals at Drive-Throughs, Ring Notifications, Large Digital Signs on Poles higher than 6') 
+            
+                </span>  
+        </div>
+
+        <h4>List your specific experience with Digital Signage work:</h4> 
+        <div>
+                <span style="font-weight:bold;">Connectivity of Outdoor Digital Signs (e.g. hard wire, cellular, WIFI) 
+
+                </span> 
+                <span style="font-weight:bold;">Mall Kiosk Screens (e.g. mall directories and advertising)  
+            
+                </span>  
+                <span style="font-weight:bold;">Media Player Installs  
+            
+                </span>  
+                <span style="font-weight:bold;">Outdoor Digital Signs on Poles (e.g. heights of 6'+)  
+            
+                </span>  
+                <span style="font-weight:bold;">Pedestal Signage Installs  
+            
+                </span>  
+                <span style="font-weight:bold;">Power Source Internal (installing electrical outlets)  
+            
+                </span>  
+                <span style="font-weight:bold;">Power Source External (trenching to a sign for electrical conduit)  
+            
+                </span>  
+                <span style="font-weight:bold;">Perform site surveys for existing signs placement  
+            
+                </span>  
+                <span style="font-weight:bold;">Perform site surveys for new sign placement  
+            
+                </span>  
+                <span style="font-weight:bold;">Perform site surveys for existing power and circuit space  
+            
+                </span>  
+        </div>
+        
+        <h1>IT SERVICES, AUDIO/VIDEO, PAGING, SATELLITE, POS AND OUTSIDE PLANT WORK:</h1> 
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you offer IT services?  </span>:
+            {{ $offering_it_services }}.
+        </li>  
+
+        <h4>Do you offer the following services?</h4>
+        <div>
+           <span style="font-weight:bold;">Audio/Video    </span>   
+           <span style="font-weight:bold;">Paging Systems    </span>   
+           <span style="font-weight:bold;">Aerial    </span>    
+           <span style="font-weight:bold;">Underground Work    </span>  
+        </div>
+
+        <h4>Type of Outside Plant Work</h4>
+        <div>
+           <span style="font-weight:bold;">Trenching    </span>  
+           <span style="font-weight:bold;">Directional Boring    </span>  
+           <span style="font-weight:bold;">Satellite    </span>  
+           <span style="font-weight:bold;">POS    </span>  
+        </div>
+
+        <h1>RETAIL SCALE CALIBRATION:</h1> 
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Are you certified to offer Retail Scale Calibration services?  </span>:
+            {{ $retail_scale_calibration_service }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">States Certified </span>:
+            {{ $retail_scale_calibration_service_info }}.
+        </li>  
+
+        <h1>SOUND MASKING:</h1> 
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you install Sound Masking System?  </span>:
+            {{ $sound_masking_system }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you provide engineering services for Sound Masking? </span>:
+            {{ $engineering_service_for_sound_masking_system }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Sound Masking Systems </span>:
+            {{ $retail_scale_calibration_service_info }}.
+        </li>  
+
+        <h1>CAD</h1> 
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Do you provide CAD services? </span>:
+            {{ $sound_masking_system }}.
+        </li>   
+         
+        <h4>What software systems do you have experience operating?</h4>
+        <div>
+           <span style="font-weight:bold;">Bluebeam    </span>  
+           <span style="font-weight:bold;">AutoCAD    </span>  
+           <span style="font-weight:bold;">Revit    </span>  
+           <span style="font-weight:bold;">BIM 360    </span>  
+           <span style="font-weight:bold;">MS Excel    </span>  
+           <span style="font-weight:bold;">Smart Sheets    </span>  
+           <span style="font-weight:bold;">Service Now    </span>   
+        </div>
+         
+        <h4>List the areas of scope you have provided CAD services for.</h4>
+        <div>
+           <span style="font-weight:bold;">Telecom    </span>  
+           <span style="font-weight:bold;">Video Surveillance System (Video/Camera/CCTV)    </span>  
+           <span style="font-weight:bold;">Wireless    </span>  
+           <span style="font-weight:bold;">Security & Intrusion    </span>  
+           <span style="font-weight:bold;">Low Voltage    </span>  
+           <span style="font-weight:bold;">Data    </span>  
+           <span style="font-weight:bold;">RFID    </span>   
+           <span style="font-weight:bold;">Audio/Paging    </span>   
+           <span style="font-weight:bold;">Access Control    </span>   
+           <span style="font-weight:bold;">Fire Alarm    </span>   
+           <span style="font-weight:bold;">Life Safety    </span>   
+        </div>
+         
+        <h4>List the different stages you have experience performing.</h4>
+        <div>
+           <span style="font-weight:bold;">Design    </span>   
+           <span style="font-weight:bold;">Conceptual  </span>   
+           <span style="font-weight:bold;">Prototype    </span>   
+           <span style="font-weight:bold;">Pilot    </span>   
+           <span style="font-weight:bold;">Pre-Construction    </span>   
+           <span style="font-weight:bold;">Construction    </span>   
+           <span style="font-weight:bold;">Start-Up    </span>   
+           <span style="font-weight:bold;">Composite   </span>   
+           <span style="font-weight:bold;">Permit Set    </span>   
+           <span style="font-weight:bold;">Revision 1    </span>   
+           <span style="font-weight:bold;">Revision 2    </span>   
+           <span style="font-weight:bold;">As-Built    </span>    
+        </div>
+         
+        <h4>List the different stages you have experience performing.</h4>
+        <div>
+           <span style="font-weight:bold;">Intern    </span>   
+           <span style="font-weight:bold;">Drafter  </span>   
+           <span style="font-weight:bold;">Designer    </span>    
+           <span style="font-weight:bold;">Engineer    </span>    
+        </div>
+ 
+       
+ 
          
      
 

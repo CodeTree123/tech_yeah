@@ -183,8 +183,38 @@ class BackendController extends Controller
             'state_access_control_license_text' => $request->state_access_control_license_text,  
             // ***************************
 
+            'licensed_electrician' => $request->licensed_electrician,  
+            'bending_conduit_experience' => $request->bending_conduit_experience,  
+            'sainless_steel_conduit_experience' => $request->sainless_steel_conduit_experience,  
+            'state_electrical_license' => $request->state_electrical_license,  
+            'structured_cabling_license_info' => $request->structured_cabling_license_info,   
+            // ***************************
+            'wireless_installls' => $request->wireless_installls,  
+            'onsite_wireless_site_surveys' => $request->onsite_wireless_site_surveys,  
+            'network_hardware_installs' => $request->network_hardware_installs,  
+            'experience_installing_mdf_racks' => $request->experience_installing_mdf_racks,  
+            // ***************************
+            'general_contractor_license' => $request->general_contractor_license,  
+            'general_contractor_license_info' => $request->general_contractor_license_info,  
+            'mechanical_contractor_license' => $request->mechanical_contractor_license,  
+            'mechanical_contractor_license_info' => $request->mechanical_contractor_license_info,  
+            // ***************************
+            'pull_digital_signage_permits' => $request->pull_digital_signage_permits,  
+            'license_for_signage_installs' => $request->license_for_signage_installs,  
+            'signage_license_info' => $request->signage_license_info,   
+            // ***************************
+            'offering_it_services' => $request->offering_it_services,   
+            // ***************************
+            'retail_scale_calibration_service' => $request->retail_scale_calibration_service,   
+            'retail_scale_calibration_service_info' => $request->retail_scale_calibration_service_info,   
+            // ***************************
+            'sound_masking_system' => $request->sound_masking_system,   
+            'engineering_service_for_sound_masking_system' => $request->engineering_service_for_sound_masking_system,   
+            'retail_scale_calibration_service_info' => $request->retail_scale_calibration_service_info,   
+     
 
 
+            // retail_scale_calibration_service_info NOT WORKING
         ];
         // dd($request->all(),$data);
 

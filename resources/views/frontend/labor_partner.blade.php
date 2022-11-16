@@ -1537,7 +1537,7 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Licensed Electrician</p>
-                                                <select class="form-select" aria-label="Default select example" id="licensed_electrician" name="">
+                                                <select class="form-select" aria-label="Default select example" id="licensed_electrician" name="licensed_electrician">
                                                     <option value="No">No</option>
                                                     <option value="Yes">Yes</option>
                                                 </select>
@@ -1549,21 +1549,21 @@
                                             <div class="col-6">
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you have experience bending conduit?</p>
-                                                    <select class="form-select" aria-label="Default select example" id="bending_conduit_experience" name="">
+                                                    <select class="form-select" aria-label="Default select example" id="bending_conduit_experience" name="bending_conduit_experience">
                                                         <option value="No">No</option>
                                                         <option value="Yes">Yes</option>
                                                     </select>
                                                 </div>
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you have experience installing stainless steel conduit?</p>
-                                                    <select class="form-select" aria-label="Default select example" id="sainless_steel_conduit_experience" name="">
+                                                    <select class="form-select" aria-label="Default select example" id="sainless_steel_conduit_experience" name="sainless_steel_conduit_experience">
                                                         <option value="No">No</option>
                                                         <option value="Yes">Yes</option>
                                                     </select>
                                                 </div>
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you hold a State Electrical license(s)?</p>
-                                                    <select class="form-select" aria-label="Default select example" id="state_electrical_license" name="">
+                                                    <select class="form-select" aria-label="Default select example" id="state_electrical_license" name="state_electrical_license">
                                                         <option value="No">No</option>
                                                         <option value="Yes">Yes</option>
                                                         <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
@@ -1586,7 +1586,7 @@
                                         <div class="col-6">
                                             <div class="my-4">
                                                 <p class="form-label ">Do you perform wireless installs?</p>
-                                                <select class="form-select" aria-label="Default select example" id="wireless_installls" name="">
+                                                <select class="form-select" aria-label="Default select example" id="wireless_installls" name="wireless_installls">
                                                     <option value="No">No</option>
                                                     <option value="Yes">Yes</option>
                                                 </select>
@@ -1598,7 +1598,7 @@
                                             <div class="col-6">
                                                 <div class="my-4">
                                                     <p class="form-label ">Do you perform onsite Wireless Site Surveys?</p>
-                                                    <select class="form-select" aria-label="Default select example" id="onsite_wireless_site_surveys" name="">
+                                                    <select class="form-select" aria-label="Default select example" id="onsite_wireless_site_surveys" name="onsite_wireless_site_surveys">
                                                         <option value="No">No</option>
                                                         <option value="Yes">Yes</option>
                                                     </select>
@@ -1682,7 +1682,7 @@
                                     </div>
                                     <div class="my-4">
                                         <p class="form-label ">Do you perform network hardware installs?</p>
-                                        <select class="form-select" aria-label="Default select example" id="network_hardware_installs" name="">
+                                        <select class="form-select" aria-label="Default select example" id="network_hardware_installs" name="network_hardware_installs">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="Willing to Add for additional Opportunities">Willing to Add for additional Opportunities</option>
@@ -1693,61 +1693,37 @@
                                         <p class="form-text"> (Check all that apply)</p>
                                         <div class="col my-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="forklift">
-                                                <label class="form-check-label" for="forklift">
-                                                    Forklift
+                                                <input class="form-check-input" type="checkbox" value="" id="switch_add">
+                                                <label class="form-check-label" for="switch_add">
+                                                Switch Add
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="boom_lift">
-                                                <label class="form-check-label" for="boom_lift">
-                                                    Boom Lift
+                                                <input class="form-check-input" type="checkbox" value="" id="Switch_Upgrade">
+                                                <label class="form-check-label" for="Switch_Upgrade">
+                                                 Switch Upgrade
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="crane">
-                                                <label class="form-check-label" for="crane">
-                                                    Crane
+                                                <input class="form-check-input" type="checkbox" value="" id="Switch_Refresh">
+                                                <label class="form-check-label" for="Switch_Refresh">
+                                                Switch Refresh
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="heavy_equipment_rigging">
-                                                <label class="form-check-label" for="heavy_equipment_rigging">
-                                                    Heavy Equipment Rigging
+                                                <input class="form-check-input" type="checkbox" value="" id="mac_move_and_change">
+                                                <label class="form-check-label" for="mac_move_and_change">
+                                                MAC (Move Add Change)
                                                 </label>
-                                            </div>
-
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" scissor_lift">
-                                                <label class="form-check-label" for=" scissor_lift">
-                                                    Scissor Lift
-                                                </label>
-                                            </div>
-
-
-
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" ladder">
-                                                <label class="form-check-label" for=" ladder">
-                                                    Ladder
-                                                </label>
-                                            </div>
-
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" lift_harness">
-                                                <label class="form-check-label" for=" lift_harness">
-                                                    Lift Harness (Safety)
-                                                </label>
-                                            </div>
-
+                                            </div> 
 
                                         </div>
                                         <div class="my-4">
                                             <p class="form-label ">Do you have experience installing MDF Racks?</p>
-                                            <select class="form-select" aria-label="Default select example" id="experience_installing_mdf_racks" name="">
+                                            <select class="form-select" aria-label="Default select example" id="experience_installing_mdf_racks" name="experience_installing_mdf_racks">
                                                 <option value="No">No</option>
                                                 <option value="Yes">Yes</option>
                                             </select>
@@ -1780,7 +1756,7 @@
                                             </div>
                                         </div>
                                         <div class="col my-4 automation_robotics_facilities_maintenance_wrapper  ">
-                                            <p class="form-label">Further explain your experience and skill set in Automation and Robotics:</p>
+                                            <p class="form-label fw-bold">Further explain your experience and skill set in Automation and Robotics:</p>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Conveyors">
                                                 <label class="form-check-label" for="Conveyors">
@@ -1852,7 +1828,149 @@
                                             </div>
                                             <p class="form-text">Check all that apply.</p>
 
-                                            <p class="form-label">Type of HVAC Work</p>
+                                            <p class="form-label fw-bold">Do you have experience with installing:</p>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="ASRS_install">
+                                                <label class="form-check-label" for="ASRS_install">
+                                                Automated Storage and Retrieval Systems (ASRS)
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="RSR_install ">
+                                                <label class="form-check-label" for="RSR_install ">
+                                                Robotic Storage and Retrieval Systems (RSR)
+                                                </label>
+                                            </div>
+                                            <p class="form-text">Check all that apply.</p>
+
+                                            <p class="form-label fw-bold">Do you have experience with servicing:</p>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="ASRS_service">
+                                                <label class="form-check-label" for="ASRS_service">
+                                                Automated Storage and Retrieval Systems (ASRS)
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="RSR_service ">
+                                                <label class="form-check-label" for="RSR_service ">
+                                                Robotic Storage and Retrieval Systems (RSR)
+                                                </label>
+                                            </div>
+                                            <p class="form-text">Check all that apply.</p>
+
+                                            <p class="form-label fw-bold">Can you do the following in supporting Automation, Robotics and Facilities Maintenance?</p>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="ASi_Modules">
+                                                <label class="form-check-label" for="ASi_Modules">
+                                                ASi Modules
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Belt_and_Chain_Drives ">
+                                                <label class="form-check-label" for="Belt_and_Chain_Drives ">
+                                                Belt and Chain Drives
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Belt_Tensioning ">
+                                                <label class="form-check-label" for="Belt_Tensioning ">
+                                                Belt Tensioning
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="HVAC ">
+                                                <label class="form-check-label" for="HVAC ">
+                                                HVAC
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Instrumentation ">
+                                                <label class="form-check-label" for="Instrumentation ">
+                                                Instrumentation
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Magnetic_Field_Gauss ">
+                                                <label class="form-check-label" for=" Magnetic_Field_Gauss ">
+                                                 Magnetic Field - Gauss
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Noise_Level_Decibel ">
+                                                <label class="form-check-label" for="Noise_Level_Decibel ">
+                                                Noise Level - Decibel
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Pneumatic ">
+                                                <label class="form-check-label" for="Pneumatic ">
+                                                Pneumatic
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Racks ">
+                                                <label class="form-check-label" for="Racks ">
+                                                Racks
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="RFID ">
+                                                <label class="form-check-label" for="RFID ">
+                                                RFID
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Servo_Drives ">
+                                                <label class="form-check-label" for="Servo_Drives ">
+                                                Servo Drives
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Torque ">
+                                                <label class="form-check-label" for="Torque ">
+                                                Torque
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="Variable_Frequency_Drives ">
+                                                <label class="form-check-label" for="Variable_Frequency_Drives ">
+                                                Variable Frequency Drives (VFD)
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Weights_and_Measures_Scale_Calibration ">
+                                                <label class="form-check-label" for=" Weights_and_Measures_Scale_Calibration ">
+                                                Weights and Measures/Scale Calibration
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Wire_Crafter ">
+                                                <label class="form-check-label" for=" Wire_Crafter ">
+                                                Wire Crafter
+                                                </label>
+                                            </div>
+                                            <p class="form-text">Check all that apply.</p>
+
+                                            <p class="form-label fw-bold">Type of HVAC Work</p>
 
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="Control_Repair_Replacement_Experience">
@@ -1871,13 +1989,14 @@
 
                                             <div class="my-4">
                                                 <p class="form-label ">Do you hold a General Contractor License?</p>
-                                                <select class="form-select" aria-label="Default select example" id="general_contractor_license" name="">
+                                                <select class="form-select" aria-label="Default select example" id="general_contractor_license" name="general_contractor_license">
                                                     <option value="No">No</option>
                                                     <option value="Yes">Yes</option>
                                                 </select>
                                                 <div class="general_contractor_license_wrapper">
-                                                    <p class="form-label ">Structured Cabling License Info*</p>
-                                                    <p class="form-text ">List License Type and Name, State &amp; License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
+                                                    <p class="form-label ">General Contractor License Info*</p>
+                                                    <p class="form-text ">
+                                                        Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
 
                                                     <textarea class="form-control" id="floatingTextarea" name="general_contractor_license_info"></textarea>
                                                 </div>
@@ -1885,13 +2004,13 @@
 
                                             <div class="my-4">
                                                 <p class="form-label ">Do you hold a Mechanical Contractor License?</p>
-                                                <select class="form-select" aria-label="Default select example" id="mechanical_contractor_license" name="">
+                                                <select class="form-select" aria-label="Default select example" id="mechanical_contractor_license" name="mechanical_contractor_license">
                                                     <option value="No">No</option>
                                                     <option value="Yes">Yes</option>
                                                 </select>
                                                 <div class="mechanical_contractor_license_wrapper">
-                                                    <p class="form-label ">Structured Cabling License Info*</p>
-                                                    <p class="form-text ">List License Type and Name, State &amp; License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
+                                                    <p class="form-label ">Mechanical Contractor License Info*</p>
+                                                    <p class="form-text ">Type, State & License Number. Upon approval, you will be required to provide a copy of the above license you have listed to be listed on your company profile with Telaid.</p>
 
                                                     <textarea class="form-control" id="floatingTextarea" name="mechanical_contractor_license_info"></textarea>
                                                 </div>
@@ -1901,7 +2020,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <h2>AUTOMATION, ROBOTICS AND FACILITIES MAINTENANCE</h2>
+                                        <h2>DIGITAL SIGNAGE</h2>
                                         <hr>
                                         <p class="form-text fw-bold"> Do you have experience performing:</p>
                                         <div class="col my-4">
@@ -1986,7 +2105,7 @@
                                                 <div class="my-4 row">
                                                     <div class="col-6">
                                                         <p class="form-label ">Are you able to pull your own Digital Signage Permits?</p>
-                                                        <select class="form-select" aria-label="Default select example" id="pull_digital_signage_permits" name="">
+                                                        <select class="form-select" aria-label="Default select example" id="pull_digital_signage_permits" name="pull_digital_signage_permits">
                                                             <option value="No">No</option>
                                                             <option value="Yes">Yes</option>
                                                         </select>
@@ -1996,7 +2115,7 @@
                                                 <div class="my-4 row">
                                                     <div class="col-6">
                                                         <p class="form-label ">Do you have a license for signage installs?</p>
-                                                        <select class="form-select" aria-label="Default select example" id="license_for_signage_installs" name="">
+                                                        <select class="form-select" aria-label="Default select example" id="license_for_signage_installs" name="license_for_signage_installs">
                                                             <option value="No">No</option>
                                                             <option value="Yes">Yes</option>
                                                         </select>
@@ -2021,7 +2140,7 @@
                                         <div class="my-4 row">
                                             <div class="col-6">
                                                 <p class="form-label ">Do you offer IT services?</p>
-                                                <select class="form-select" aria-label="Default select example" id="offering_it_services" name="">
+                                                <select class="form-select" aria-label="Default select example" id="offering_it_services" name="offering_it_services">
                                                     <option value="No">No</option>
                                                     <option value="Yes">Yes</option>
                                                 </select>
@@ -2109,7 +2228,7 @@
                                     <div class="my-4 row">
                                         <div class="col-6">
                                             <p class="form-label ">Are you certified to offer Retail Scale Calibration services?</p>
-                                            <select class="form-select" aria-label="Default select example" id="retail_scale_calibration_service" name="">
+                                            <select class="form-select" aria-label="Default select example" id="retail_scale_calibration_service" name="retail_scale_calibration_service">
                                                 <option value="No">No</option>
                                                 <option value="Yes">Yes</option>
                                                 <option value="I am interested in information on how to get certified">I am interested in information on how to get certified</option>
@@ -2130,7 +2249,7 @@
                                     <div class="my-4 row">
                                         <div class="col-6">
                                             <p class="form-label ">Do you install Sound Masking System?</p>
-                                            <select class="form-select" aria-label="Default select example" id="sound_masking_system" name="">
+                                            <select class="form-select" aria-label="Default select example" id="sound_masking_system" name="sound_masking_system">
                                                 <option value="No">No</option>
                                                 <option value="Yes">Yes</option>
                                             </select>
@@ -2140,7 +2259,7 @@
                                         <div class="my-4 row">
                                             <div class="col-6">
                                                 <p class="form-label ">Do you provide engineering services for Sound Masking?</p>
-                                                <select class="form-select" aria-label="Default select example" id="engineering_service_for_sound_masking_system" name="">
+                                                <select class="form-select" aria-label="Default select example" id="engineering_service_for_sound_masking_system" name="engineering_service_for_sound_masking_system">
                                                     <option value="No">No</option>
                                                     <option value="Yes">Yes</option>
                                                 </select>
