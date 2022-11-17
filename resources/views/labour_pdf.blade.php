@@ -1040,7 +1040,288 @@
            <span style="font-weight:bold;">Designer    </span>    
            <span style="font-weight:bold;">Engineer    </span>    
         </div>
+        <hr>
+
+        
+        <h1>CERTIFICATIONS</h1> 
+        <h3>GENERAL BUSINESS</h3> 
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Background Checks  </span>:
+            {{ $background_check }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Background Checks - Last Date Taken   </span>:
+            {{ $background_check_last_check }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Drug Tests   </span>:
+            {{ $drug_test }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Drug Test - Last Date Taken   </span>:
+            {{ $drug_test_last_check }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">HIPAA Certified   </span>:
+            {{ $hipaa_certified }}.
+        </li>  
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">HIPAA - Last Date Taken   </span>:
+            {{ $hipaa_certified_last_check }}.
+        </li>  
+
+        <h3>INDUSTRY </h3> 
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">A+ Certified   </span>:
+            {{ $a_plus_certified }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">ADT   </span>:
+            {{ $adt }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Avaya   </span>:
+            {{ $avaya }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Axis   </span>:
+            {{ $axis }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Belden   </span>:
+            {{ $belden }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BICSI Copper 1   </span>:
+            {{ $bicsi_copper_one }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BICSI Copper 2   </span>:
+            {{ $bicsi_copper_two }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BICSI Installer    </span>:
+            {{ $bicsi_installer }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BICSI RCDD    </span>:
+            {{ $bicsi_rcdd }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BICSI Technician   </span>:
+            {{ $bicsi_technician }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BOSCH - CCTV   </span>:
+            {{ $bosch_cctv }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BOSCH - Fire    </span>:
+            {{ $bosch_fire }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BOSCH - Intrusion   </span>:
+            {{ $bosch_intrusion }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">BOSCH - IP Paging    </span>:
+            {{ $bosch_ip_paging }}.
+        </li>  
+        
+        <hr>
+        
+        <h3>CISCO Certifications </h3> 
+        <div>
+           <span style="font-weight:bold;">CCENT    </span>   
+           <span style="font-weight:bold;">Boom Lift  </span>   
+           <span style="font-weight:bold;">CCT    </span>   
+           <span style="font-weight:bold;">Heavy Equipment Rigging    </span>   
+           <span style="font-weight:bold;">CCNA    </span>   
+           <span style="font-weight:bold;">CCDA    </span>   
+           <span style="font-weight:bold;">CCNP    </span>   
+           <span style="font-weight:bold;">CCIE    </span>  
+        </div>
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> CommScope Systimax   </span>:
+            {{ $commScope_systimax }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> CommScope Uniprise   </span>:
+            {{ $commScope_Uniprise }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Corning   </span>:
+            {{ $corning }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> DMP   </span>:
+            {{ $DMP }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> DSX   </span>:
+            {{ $DSX }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> ESA  </span>:
+            {{ $ESA }}.
+        </li>  
+         
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Fiber Certifications   </span>:
+            {{ $fiber_cirtification_info }}.
+        </li>  
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Fire-Lite   </span>:
+            {{ $fire_lite }}.
+        </li>  
+        
+        <hr>
+        
+        <h3>Genetec   Certifications </h3> 
+        <div>
+           <span style="font-weight:bold;">Stratocast    </span>   
+           <span style="font-weight:bold;">Omnicast    </span>    
+        </div>
+        
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Hanwha     </span>:
+            {{ $Hanwha }}.
+        </li> 
+        <hr>
+        
+        <h3>Honeywell Certifications </h3> 
+        <div>
+           <span style="font-weight:bold;"> Access Control    </span>   
+           <span style="font-weight:bold;">CCTV    </span>    
+           <span style="font-weight:bold;">Fire    </span>    
+           <span style="font-weight:bold;">Intrusion    </span>    
+        </div>  
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Leviton     </span>:
+            {{ $Leviton }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> March Networks
+
+</span>:
+            {{ $March_Networks }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> NICET Fire Protection
+
+</span>:
+            {{ $NICET_fire_protection }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> NICET Security Systems     </span>:
+            {{ $NICET_Security_Systems }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Nortel     </span>:
+            {{ $Nortel }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Ortronics     </span>:
+            {{ $Ortronics }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Panduit     </span>:
+            {{ $Panduit }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> SilentKnight     </span>:
+            {{ $SilentKnight }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Verint     </span>:
+            {{ $Verint }}.
+        </li>
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> Do you hold any other industry standard certificatoins that are not listed above? If so, please list:     </span>:
+            {{ $industry_standard_certifications_not_listed }}.
+        </li>
+        
+        <h3>Heavy Equipment Certification Section </h3> 
+        <div>
+           <span style="font-weight:bold;"> Fork Lift    </span>   
+           <span style="font-weight:bold;">Scissor Lift    </span>    
+           <span style="font-weight:bold;">Boom Lift        </span>    
+           <span style="font-weight:bold;">Crane    </span>    
+           <span style="font-weight:bold;">Heavy Rigging        </span>    
+        </div> 
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">OSHA 10   </span>:
+            {{ $osha_10 }}.
+        </li> 
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;"> OSHA 30   </span>:
+            {{ $osha_30 }}.
+        </li> 
+        
+        <h1>EXPERIENCE & COMMENTS </h1> 
+        <h3>Customer Experience </h3>  
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Customer Experience   </span>:
+            {{ $customer_experience }}.
+        </li>  
+        <h3 class="fw-bold">Additional Comments   </h3>   
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Any additional information you'd like Telaid to know about your company?   </span>:
+            {{ $additional_comments }}.
+        </li>   
+
+        <li style="margin-bottom:10px;">
+            <span style="font-weight:bold;">Did someone from Telaid refer you? If so, please let us know who.?    </span>:
+            {{ $refer_information }}.
+        </li>  
+        
+        <h1>        Partner Master Service Agreement Consent * </h1> 
+        <h3>I have read and agree to the terms and conditions above. </h3>  
+
+        <div>
+           <span style="font-weight:bold;"> Partner Master Service Agreement Consent  </span>      
+        </div> 
+
+
+
  
+        
+
        
  
          

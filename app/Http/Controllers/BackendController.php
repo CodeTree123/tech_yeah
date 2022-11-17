@@ -211,7 +211,62 @@ class BackendController extends Controller
             'sound_masking_system' => $request->sound_masking_system,   
             'engineering_service_for_sound_masking_system' => $request->engineering_service_for_sound_masking_system,   
             'retail_scale_calibration_service_info' => $request->retail_scale_calibration_service_info,   
-     
+            // ***************************
+            'background_check' => $request->background_check,   
+            'background_check_last_check' => $request->background_check_last_check,   
+            'drug_test' => $request->drug_test,   
+            'drug_test_last_check' => $request->drug_test_last_check,   
+            'hipaa_certified' => $request->hipaa_certified,   
+            'hipaa_certified_last_check' => $request->hipaa_certified_last_check,   
+            // ***************************
+            'a_plus_certified' => $request->a_plus_certified,   
+            'adt' => $request->adt,   
+            'avaya' => $request->avaya,   
+            'axis' => $request->axis,   
+            'belden' => $request->belden,   
+            'hipaa_certified_last_check' => $request->hipaa_certified_last_check,   
+            'bicsi_copper_one' => $request->bicsi_copper_one,   
+            'bicsi_copper_two' => $request->bicsi_copper_two,   
+            'bicsi_installer' => $request->bicsi_installer,   
+            'bicsi_rcdd' => $request->bicsi_rcdd,   
+            'bicsi_technician' => $request->bicsi_technician,   
+            'bosch_cctv' => $request->bosch_cctv,   
+            'bosch_fire' => $request->bosch_fire,   
+            'bosch_intrusion' => $request->bosch_intrusion,   
+            'bosch_ip_paging' => $request->bosch_ip_paging,   
+            'bosch_cctv' => $request->bosch_cctv,   
+            'bosch_cctv' => $request->bosch_cctv,   
+            // ***************************
+            'commScope_systimax' => $request->commScope_systimax,   
+            'commScope_Uniprise' => $request->commScope_Uniprise,   
+            'corning' => $request->corning,   
+            'DMP' => $request->DMP,   
+            'DSX' => $request->DSX,   
+            'ESA' => $request->ESA,
+            'fiber_cirtification_info' => $request->fiber_cirtification_info,
+            'fire_lite' => $request->fire_lite,
+            // ***************************
+            'Hanwha' => $request->Hanwha,    
+            // ***************************
+            'Leviton' => $request->Leviton,    
+            'March_Networks' => $request->March_Networks,    
+            'NICET_fire_protection' => $request->NICET_fire_protection,    
+            'NICET_Security_Systems' => $request->NICET_Security_Systems,    
+            'Nortel' => $request->Nortel,    
+            'Ortronics' => $request->Ortronics,    
+            'Panduit' => $request->Panduit,    
+            'SilentKnight' => $request->SilentKnight,    
+            'Verint' => $request->Verint,    
+            'industry_standard_certifications_not_listed' => $request->industry_standard_certifications_not_listed,    
+            // ***************************
+            'osha_10' => $request->osha_10,    
+            'osha_30' => $request->osha_30,     
+            // ***************************
+            'customer_experience' => $request->customer_experience,    
+            'additional_comments' => $request->additional_comments,     
+            'refer_information' => $request->refer_information,         
+            // ***************************
+            'partner_master_service_agreement_consent' => $request->partner_master_service_agreement_consent,   
 
 
             // retail_scale_calibration_service_info NOT WORKING

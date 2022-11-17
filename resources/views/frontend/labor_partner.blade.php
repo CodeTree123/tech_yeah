@@ -2579,7 +2579,7 @@
 
                                     <div class="col-12">
                                         <p class="form-label ">Background Checks</p>
-                                        <select class="form-select" aria-label="Default select example" id="background_check" name="">
+                                        <select class="form-select" aria-label="Default select example" id="background_check" name="background_check">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2587,13 +2587,13 @@
 
                                         <div class="background_check_last_check_wrapper">
                                             <p class="form-label ">Background Checks - Last Date Taken</p>
-                                            <input type="text" class="form-control" id="background_check_last_check">
+                                            <input type="text" class="form-control" id="background_check_last_check" name="background_check_last_check">
                                         </div>
                                     </div>
 
                                     <div class="col-12">
                                         <p class="form-label ">Drug Tests </p>
-                                        <select class="form-select" aria-label="Default select example" id="drug_test" name="">
+                                        <select class="form-select" aria-label="Default select example" id="drug_test" name="drug_test">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2601,13 +2601,13 @@
 
                                         <div class="drug_test_last_check_wrapper">
                                             <p class="form-label ">Drug Test - Last Date Taken</p>
-                                            <input type="text" class="form-control" id="drug_test_last_check">
+                                            <input type="text" class="form-control" id="drug_test_last_check" name="drug_test_last_check">
                                         </div>
                                     </div>
 
                                     <div class="col-12">
                                         <p class="form-label ">HIPAA Certified </p>
-                                        <select class="form-select" aria-label="Default select example" id="hipaa_certified" name="">
+                                        <select class="form-select" aria-label="Default select example" id="hipaa_certified" name="hipaa_certified">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2615,7 +2615,7 @@
 
                                         <div class="hipaa_certified_last_check_wrapper">
                                             <p class="form-label ">HIPAA - Last Date Taken</p>
-                                            <input type="text" class="form-control" id="hipaa_certified_last_check">
+                                            <input type="text" class="form-control" id="hipaa_certified_last_check" name="hipaa_certified_last_check">
                                         </div>
                                     </div>
 
@@ -2623,7 +2623,7 @@
                                     <hr>
                                     <div class="col-12 my-2">
                                         <p class="form-label ">A+ Certified </p>
-                                        <select class="form-select" aria-label="Default select example" id="a_plus_certified" name="">
+                                        <select class="form-select" aria-label="Default select example" id="a_plus_certified" name="a_plus_certified">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2631,7 +2631,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">ADT </p>
-                                        <select class="form-select" aria-label="Default select example" id="adt" name="">
+                                        <select class="form-select" aria-label="Default select example" id="adt" name="adt">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2639,7 +2639,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Avaya </p>
-                                        <select class="form-select" aria-label="Default select example" id="avaya" name="">
+                                        <select class="form-select" aria-label="Default select example" id="avaya" name="avaya">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2647,7 +2647,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Axis </p>
-                                        <select class="form-select" aria-label="Default select example" id="axis" name="">
+                                        <select class="form-select" aria-label="Default select example" id="axis" name="axis">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2655,7 +2655,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Belden </p>
-                                        <select class="form-select" aria-label="Default select example" id="belden" name="">
+                                        <select class="form-select" aria-label="Default select example" id="belden" name="belden">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2663,7 +2663,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Copper 1 </p>
-                                        <select class="form-select" aria-label="Default select example" id="bicsi_copper_one" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bicsi_copper_one" name="bicsi_copper_one">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2671,7 +2671,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Copper 2 </p>
-                                        <select class="form-select" aria-label="Default select example" id="bicsi_copper_two" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bicsi_copper_two" name="bicsi_copper_two">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2679,7 +2679,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Installer </p>
-                                        <select class="form-select" aria-label="Default select example" id="bicsi_installer" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bicsi_installer" name="bicsi_installer">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2687,7 +2687,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI RCDD </p>
-                                        <select class="form-select" aria-label="Default select example" id="bicsi_rcdd" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bicsi_rcdd" name="bicsi_rcdd">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2695,7 +2695,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BICSI Technician </p>
-                                        <select class="form-select" aria-label="Default select example" id="bicsi_technician" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bicsi_technician" name="bicsi_technician">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2703,7 +2703,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - CCTV </p>
-                                        <select class="form-select" aria-label="Default select example" id="bosch_cctv" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bosch_cctv" name="bosch_cctv">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2711,7 +2711,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - Fire </p>
-                                        <select class="form-select" aria-label="Default select example" id="bosch_fire" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bosch_fire" name="bosch_fire">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2719,7 +2719,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - Intrusion </p>
-                                        <select class="form-select" aria-label="Default select example" id="bosch_intrusion" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bosch_intrusion" name="bosch_intrusion">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2727,7 +2727,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">BOSCH - IP Paging </p>
-                                        <select class="form-select" aria-label="Default select example" id="bosch_ip_paging" name="">
+                                        <select class="form-select" aria-label="Default select example" id="bosch_ip_paging" name="bosch_ip_paging">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2738,37 +2738,37 @@
                                         <p class="form-text"> (Check all that apply)</p>
                                         <div class="col my-4">
 
+ 
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" CCENT">
+                                                <input class="form-check-input" type="checkbox" value="" id="CCENT" name="CCENT">
                                                 <label class="form-check-label" for="CCENT">
-                                                    CCENT
+                                                CCENT
                                                 </label>
                                             </div>
-
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cisco_boom_lift">
+                                                <input class="form-check-input" type="checkbox" value="" id="cisco_boom_lift" name="cisco_boom_lift">
                                                 <label class="form-check-label" for="cisco_boom_lift">
                                                     Boom Lift
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="CCT">
-                                                <label class="form-check-label" for="CCT">
+                                                <input class="form-check-input" type="checkbox" value="" id="CCT"  name="CCT"      >
+                                          <label class="form-check-label" for="CCT">
                                                     CCT
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cisco_heavy_equipment_rigging">
+                                                <input class="form-check-input" type="checkbox" value="" id="cisco_heavy_equipment_rigging"  name="cisco_heavy_equipment_rigging">
                                                 <label class="form-check-label" for="cisco_heavy_equipment_rigging">
                                                     Heavy Equipment Rigging
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" CCNA">
+                                                <input class="form-check-input" type="checkbox" value="" id=" CCNA" name="CCNA">
                                                 <label class="form-check-label" for=" CCNA">
                                                     CCNA
                                                 </label>
@@ -2777,21 +2777,21 @@
 
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" CCDA">
+                                                <input class="form-check-input" type="checkbox" value="" id=" CCDA" name="CCDA">
                                                 <label class="form-check-label" for=" CCDA">
                                                     CCDA
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" CCNP">
+                                                <input class="form-check-input" type="checkbox" value="" id=" CCNP" name="CCNP">
                                                 <label class="form-check-label" for=" CCNP">
                                                     CCNP
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" CCIE">
+                                                <input class="form-check-input" type="checkbox" value="" id=" CCIE" name="CCIE">
                                                 <label class="form-check-label" for=" CCIE">
                                                     CCIE
                                                 </label>
@@ -2801,65 +2801,65 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">CommScope Systimax</p>
-                                        <select class="form-select" aria-label="Default select example" id="commScope_systimax" name="">
+                                        <select class="form-select" aria-label="Default select example" id="commScope_systimax" name="commScope_systimax">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">CommScope Uniprise</p>
-                                        <select class="form-select" aria-label="Default select example" id="commScope_Uniprise" name="">
+                                        <select class="form-select" aria-label="Default select example" id="commScope_Uniprise" name="commScope_Uniprise">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Corning </p>
-                                        <select class="form-select" aria-label="Default select example" id="corning" name="">
+                                        <select class="form-select" aria-label="Default select example" id="corning" name="corning">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">DMP </p>
-                                        <select class="form-select" aria-label="Default select example" id="DMP" name="">
+                                        <select class="form-select" aria-label="Default select example" id="DMP" name="DMP">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">DSX </p>
-                                        <select class="form-select" aria-label="Default select example" id="DSX" name="">
+                                        <select class="form-select" aria-label="Default select example" id="DSX" name="DSX">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">ESA </p>
-                                        <select class="form-select" aria-label="Default select example" id="ESA" name="">
+                                        <select class="form-select" aria-label="Default select example" id="ESA" name="ESA">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
 
                                     <p class="form-label mb-0">Fiber Certifications</p>
                                     <p class="form-text mb-0">Please list any Fiber Certifications - Name of Certification/Type; ID #; Date Completed; Expiration Date</p>
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" name="fiber_cirtification_info" style="height: 100px"></textarea>
                                         <label for="floatingTextarea3"></label>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Fire-Lite </p>
-                                        <select class="form-select" aria-label="Default select example" id="fire_lite" name="">
+                                        <select class="form-select" aria-label="Default select example" id="fire_lite" name="fire_lite">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="row my-3">
@@ -2867,13 +2867,13 @@
                                         <p class="form-text"> (Check all that apply)</p>
                                         <div class="col my-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" Stratocast">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Stratocast" name=" Stratocast">
                                                 <label class="form-check-label" for=" Stratocast">
                                                     Stratocast
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" Omnicast">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Omnicast" name=" Omnicast">
                                                 <label class="form-check-label" for=" Omnicast">
                                                     Omnicast
                                                 </label>
@@ -2882,7 +2882,7 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Hanwha </p>
-                                        <select class="form-select" aria-label="Default select example" id="hanwha" name="">
+                                        <select class="form-select" aria-label="Default select example" id="hanwha" name="Hanwha">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
                                             <option value="willing_to_obtain">Willing to Obtain</option>
@@ -2893,25 +2893,25 @@
                                         <p class="form-text"> (Check all that apply)</p>
                                         <div class="col my-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" Access_Control">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Access_Control" name=" Access_Control">
                                                 <label class="form-check-label" for=" Access_Control">
                                                     Access Control
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" CCTV">
+                                                <input class="form-check-input" type="checkbox" value="" id=" CCTV" name=" CCTV">
                                                 <label class="form-check-label" for=" CCTV">
                                                     CCTV
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" Fire">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Fire" name=" Fire">
                                                 <label class="form-check-label" for=" Fire">
                                                     Fire
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id=" Intrusion">
+                                                <input class="form-check-input" type="checkbox" value="" id=" Intrusion" name=" Intrusion">
                                                 <label class="form-check-label" for=" Intrusion">
                                                     Intrusion
                                                 </label>
@@ -2920,112 +2920,112 @@
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Leviton </p>
-                                        <select class="form-select" aria-label="Default select example" id="Leviton" name="">
+                                        <select class="form-select" aria-label="Default select example" id="Leviton" name="Leviton">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">March Networks </p>
-                                        <select class="form-select" aria-label="Default select example" id="March_Networks" name="">
+                                        <select class="form-select" aria-label="Default select example" id="March_Networks" name="March_Networks">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">NICET Fire Protection</p>
-                                        <select class="form-select" aria-label="Default select example" id="NICET_fire_protection" name="">
+                                        <select class="form-select" aria-label="Default select example" id="NICET_fire_protection" name="NICET_fire_protection">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">NICET Security Systems</p>
-                                        <select class="form-select" aria-label="Default select example" id="NICET_Security_Systems" name="">
+                                        <select class="form-select" aria-label="Default select example" id="NICET_Security_Systems" name="NICET_Security_Systems">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Nortel</p>
-                                        <select class="form-select" aria-label="Default select example" id="Nortel" name="">
+                                        <select class="form-select" aria-label="Default select example" id="Nortel" name="Nortel">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Ortronics</p>
-                                        <select class="form-select" aria-label="Default select example" id="Ortronics" name="">
+                                        <select class="form-select" aria-label="Default select example" id="Ortronics" name="Ortronics">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Panduit</p>
-                                        <select class="form-select" aria-label="Default select example" id="Panduit" name="">
+                                        <select class="form-select" aria-label="Default select example" id="Panduit" name="Panduit">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">SilentKnight</p>
-                                        <select class="form-select" aria-label="Default select example" id="SilentKnight" name="">
+                                        <select class="form-select" aria-label="Default select example" id="SilentKnight" name="SilentKnight">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
                                     <div class="col-6 my-2">
                                         <p class="form-label ">Verint</p>
-                                        <select class="form-select" aria-label="Default select example" id="Verint" name="">
+                                        <select class="form-select" aria-label="Default select example" id="Verint" name="Verint">
                                             <option value="No">No</option>
                                             <option value="Yes">Yes</option>
-                                            <option value="willing_to_obtain">Willing to Obtain</option>
+                                            <option value="Willing To Obtain">Willing to Obtain</option>
                                         </select>
                                     </div>
 
                                     <p class="form-label mb-0">Do you hold any other industry standard certificatoins that are not listed above? If so, please list:</p>
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 400px"></textarea>
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 400px" name="industry_standard_certifications_not_listed"></textarea>
                                         <label for="floatingTextarea2"></label>
                                     </div>
                                     <div class="row my-3">
                                         <h5 class="fw-bold">Heavy Equipment Certification Section</h5>
                                         <div class="col my-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="  fork_Lift">
+                                                <input class="form-check-input" type="checkbox" value="" id="fork_Lift" name="fork_Lift">
                                                 <label class="form-check-label" for="  fork_Lift">
                                                     Fork Lift
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="  Scissor_Lift">
+                                                <input class="form-check-input" type="checkbox" value="" id="Scissor_Lift" name="Scissor_Lift">
                                                 <label class="form-check-label" for="  Scissor_Lift">
                                                     Scissor Lift
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="h_boom_Lift">
+                                                <input class="form-check-input" type="checkbox" value="" id="h_boom_Lift" name="h_boom_Lift">
                                                 <label class="form-check-label" for="h_boom_Lift">
                                                     Boom Lift
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="h_crane">
+                                                <input class="form-check-input" type="checkbox" value="" id="h_crane" name="h_crane">
                                                 <label class="form-check-label" for="  h_crane">
                                                     Crane
                                                 </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="heavy_rigging">
+                                                <input class="form-check-input" type="checkbox" value="" id="heavy_rigging" name="heavy_rigging">
                                                 <label class="form-check-label" for="heavy_rigging">
                                                     Heavy Rigging
                                                 </label>
@@ -3036,19 +3036,19 @@
                                         <p class="form-label">Please check which certifications you hold for the following heavy equipment areas.</p>
                                         <div class="col-6 my-2">
                                             <p class="form-label ">OSHA 10</p>
-                                            <select class="form-select" aria-label="Default select example" id="osha_10" name="">
+                                            <select class="form-select" aria-label="Default select example" id="osha_10" name="osha_10">
                                                 <option value="No">No</option>
                                                 <option value="Yes">Yes</option>
-                                                <option value="willing_to_obtain">Willing to Obtain</option>
+                                                <option value="Willing To Obtain">Willing to Obtain</option>
                                             </select>
                                         </div>
 
                                         <div class="col-6 my-2">
                                             <p class="form-label ">OSHA 30</p>
-                                            <select class="form-select" aria-label="Default select example" id="osha_30" name="">
+                                            <select class="form-select" aria-label="Default select example" id="osha_30" name="osha_30">
                                                 <option value="No">No</option>
                                                 <option value="Yes">Yes</option>
-                                                <option value="willing_to_obtain">Willing to Obtain</option>
+                                                <option value="Willing To Obtain">Willing to Obtain</option>
                                             </select>
                                         </div>
                                     </div>
@@ -3077,7 +3077,7 @@
                                         <label for="additional_comments"></label>
                                     </div>
 
-                                    <h6 class="text-secondary fw-bold">Did someone from Telaid refer you? If so, please let us know who.</h6>
+                                    <h6 class="text-secondary fw-bold">Did someone from Telaid refer you? If so, please let us know who? </h6>
                                     <div class="form-floating mb-3">
                                         <textarea class="form-control" placeholder="Leave a comment here" id="refer_information" name="refer_information" style="height: 200px"></textarea>
                                         <label for="refer_information"></label>
@@ -3358,7 +3358,7 @@
                                     </div>
                                     <div class="form-check my-4">
                                         <p class="fw-bold">Partner Master Service Agreement Consent *</p>
-                                        <input class="form-check-input" type="checkbox" value="" id="  partner_master_service_agreement_consent">
+                                        <input class="form-check-input" type="checkbox" value="" id="  partner_master_service_agreement_consent" name="partner_master_service_agreement_consent">
                                         <label class="form-check-label" for="  partner_master_service_agreement_consent">
                                             I have read and agree to the terms and conditions above.
                                         </label>
